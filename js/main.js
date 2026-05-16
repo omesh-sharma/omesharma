@@ -34,6 +34,13 @@
         }).join("");
     }
 
+    function toggleOptional(name, visible) {
+        var node = $('[data-optional="' + name + '"]');
+        if (node) {
+            node.hidden = !visible;
+        }
+    }
+
     function setText(selector, value) {
         var node = $(selector);
         if (node) {
@@ -90,6 +97,7 @@
         ].join(""));
 
         setText("[data-availability]", profile.landing.availability);
+        setupHeroRotator(profile.landing.heroRotator || []);
 
         setHtml("[data-stats]", (profile.quickStats || []).map(function (stat) {
             return [
@@ -100,6 +108,26 @@
                 "</article>"
             ].join("");
         }).join(""));
+    }
+
+    function setupHeroRotator(items) {
+        var node = $("[data-hero-rotator]");
+        if (!node || !items.length) {
+            return;
+        }
+        var index = 0;
+        node.textContent = items[index];
+        if (items.length === 1) {
+            return;
+        }
+        window.setInterval(function () {
+            index = (index + 1) % items.length;
+            node.classList.add("is-changing");
+            window.setTimeout(function () {
+                node.textContent = items[index];
+                node.classList.remove("is-changing");
+            }, 220);
+        }, 2200);
     }
 
     function renderLanding(profile) {
@@ -166,8 +194,8 @@
                 "</div>",
                 "</div>",
                 '<p class="card-summary">' + escapeHtml(item.summary) + "</p>",
-                '<ul class="feature-list">' + listItems((item.highlights || []).slice(0, 5)) + "</ul>",
-                '<div class="mini-tags">' + tags((item.techStack || []).slice(0, 12)) + "</div>",
+                '<ul class="feature-list">' + listItems((item.highlights || []).slice(0, 4)) + "</ul>",
+                '<div class="mini-tags">' + tags((item.techStack || []).slice(0, 10)) + "</div>",
                 "</article>"
             ].join("");
         }).join(""));
@@ -183,9 +211,13 @@
                 "</div>",
                 '<h3>' + escapeHtml(item.name) + "</h3>",
                 '<p>' + escapeHtml(item.summary) + "</p>",
+                '<div class="product-meta-grid">',
                 '<div class="product-section"><strong>Problem</strong><p>' + escapeHtml(item.problem) + "</p></div>",
-                '<div class="product-section"><strong>Role</strong><p>' + escapeHtml(item.yourRole) + "</p></div>",
-                '<ul class="feature-list">' + listItems((item.impact || item.features || []).slice(0, 4)) + "</ul>",
+                '<div class="product-section"><strong>My Role</strong><p>' + escapeHtml(item.yourRole) + "</p></div>",
+                "</div>",
+                '<div class="impact-row">' + (item.impact || item.features || []).slice(0, 3).map(function (impact) {
+                    return '<span>' + escapeHtml(impact) + "</span>";
+                }).join("") + "</div>",
                 '<div class="mini-tags">' + tags((item.techStack || []).slice(0, 10)) + "</div>",
                 "</article>"
             ].join("");
@@ -198,7 +230,7 @@
                 '<article class="service-card">',
                 '<h3>' + escapeHtml(item.name) + "</h3>",
                 '<p>' + escapeHtml(item.summary) + "</p>",
-                '<div class="service-block"><strong>Deliverables</strong><ul>' + listItems((item.deliverables || []).slice(0, 5)) + "</ul></div>",
+                '<div class="service-block"><strong>Deliverables</strong><ul>' + listItems((item.deliverables || []).slice(0, 4)) + "</ul></div>",
                 '<div class="mini-tags">' + tags((item.techStack || []).slice(0, 8)) + "</div>",
                 "</article>"
             ].join("");
@@ -257,7 +289,11 @@
             ].join("");
         }).join(""));
 
-        setHtml("[data-testimonials]", (profile.testimonials || []).map(function (item) {
+        var testimonials = (profile.testimonials || []).filter(function (item) {
+            return item && item.status !== "placeholder";
+        });
+        toggleOptional("testimonials", testimonials.length > 0);
+        setHtml("[data-testimonials]", testimonials.map(function (item) {
             return [
                 '<article class="compact-item">',
                 '<span>' + escapeHtml(item.source || item.status || "") + "</span>",
@@ -267,15 +303,16 @@
             ].join("");
         }).join(""));
 
-        setHtml("[data-freelance]", (profile.landing.freelanceProfiles || []).map(function (item) {
-            var body = item.url
-                ? link("Open " + item.platform, item.url, "text-link")
-                : '<p>' + escapeHtml(item.status || "Planned") + "</p>";
+        var freelanceProfiles = (profile.landing.freelanceProfiles || []).filter(function (item) {
+            return item && item.url;
+        });
+        toggleOptional("freelance", freelanceProfiles.length > 0);
+        setHtml("[data-freelance]", freelanceProfiles.map(function (item) {
             return [
                 '<article class="compact-item">',
                 '<span>' + escapeHtml(item.status || "") + "</span>",
                 '<h4>' + escapeHtml(item.platform) + "</h4>",
-                body,
+                link("Open " + item.platform, item.url, "text-link"),
                 "</article>"
             ].join("");
         }).join(""));
@@ -284,12 +321,21 @@
     function renderContent(profile) {
         var blogCount = (profile.content.blog.posts || []).length;
         var videoCount = (profile.content.youtube.videos || []).length;
-        setHtml("[data-content]", [
-            contentCard("Blog", profile.content.blog.summary, blogCount + " posts ready", ""),
-            contentCard("YouTube", profile.content.youtube.summary, videoCount + " videos mapped", profile.content.youtube.channelUrl),
-            contentCard("Case Studies", "Long-form architecture and product breakdowns from major systems.", (profile.caseStudies || []).length + " drafts", ""),
-            contentCard("Ratings", profile.ratings.summary, (profile.ratings.items || []).length + " reviews", "")
-        ].join(""));
+        var cards = [];
+        if (blogCount > 0) {
+            cards.push(contentCard("Blog", profile.content.blog.summary, blogCount + " posts", ""));
+        }
+        if (profile.content.youtube.channelUrl) {
+            cards.push(contentCard("YouTube", profile.content.youtube.summary, videoCount ? videoCount + " videos" : "Channel ready", profile.content.youtube.channelUrl));
+        }
+        if ((profile.caseStudies || []).length > 0) {
+            cards.push(contentCard("Case Studies", "Long-form architecture and product breakdowns from major systems.", profile.caseStudies.length + " drafts", ""));
+        }
+        if ((profile.ratings.items || []).length > 0) {
+            cards.push(contentCard("Ratings", profile.ratings.summary, profile.ratings.items.length + " reviews", ""));
+        }
+        toggleOptional("content", cards.length > 0);
+        setHtml("[data-content]", cards.join(""));
     }
 
     function contentCard(title, summary, meta, href) {
