@@ -1,0 +1,1144 @@
+{
+  "schemaVersion": "1.0.0",
+  "lastUpdated": "2026-05-17",
+  "identity": {
+    "name": "Omesh Sharma",
+    "brandName": "OmeshDevFolio",
+    "headline": "Senior Software Engineer, Distributed Systems Builder, Backend and AI Systems Developer",
+    "tagline": "I build scalable backend platforms, distributed systems, AI/OCR products, automation workflows, and enterprise-grade software from architecture to production.",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India",
+      "postalCode": "174314"
+    },
+    "avatar": "img/Profile-removebg-preview.png",
+    "heroImage": "img/Profile-removebg-preview.png",
+    "resumeUrl": "reference/Omesh_Sharma_CV_2026.pdf",
+    "shortBio": "Senior Software Engineer with 7.5+ years of experience building distributed systems, high-performance backend platforms, enterprise applications, Document AI systems, quantitative platforms, and VR/graphics applications.",
+    "longBio": "Omesh Sharma is a senior software engineer and product-minded builder with experience across Oracle BRM, messaging infrastructure, distributed backend systems, Document AI, OCR, quantitative trading systems, and VR/graphics platforms. He works with C/C++, Python, Java, cloud-native technologies, secure communication, multithreading, system design, performance optimization, high availability, debugging, and enterprise-scale backend infrastructure."
+  },
+  "positioning": {
+    "primaryRole": "Senior Software Engineer",
+    "secondaryRoles": [
+      "Backend Developer",
+      "Product Engineer",
+      "DevOps Engineer",
+      "Application Architect",
+      "AI and Computer Vision Developer",
+      "Automation Engineer",
+      "Distributed Systems Engineer",
+      "Cloud-Native Backend Engineer"
+    ],
+    "focusAreas": [
+      "Backend and API development",
+      "System architecture",
+      "Product development from scratch",
+      "Distributed systems and high availability",
+      "Secure communication and networking",
+      "Oracle BRM, OSS/BSS, CRM, and enterprise systems",
+      "DevOps and CI/CD automation",
+      "OCR and document intelligence",
+      "RAG workflows and LLM integrations",
+      "Computer vision and machine learning",
+      "Trading and quant automation",
+      "Desktop and web application development"
+    ],
+    "availableFor": [
+      "Senior software engineering roles",
+      "Distributed systems and backend platform roles",
+      "Backend and API development",
+      "MVP and product development",
+      "DevOps automation",
+      "AI/OCR/computer vision solutions",
+      "Enterprise system modernization",
+      "Technical consulting",
+      "Startup and founder collaboration"
+    ],
+    "personalThemes": [
+      "Builder mindset",
+      "Entrepreneurial spirit",
+      "Systems thinking",
+      "End-to-end product ownership",
+      "Learning in public",
+      "Practical automation"
+    ]
+  },
+  "landing": {
+    "availability": "Open to senior engineering roles, consulting, MVP builds, automation work, and technical collaborations.",
+    "primaryCta": "Start a Conversation",
+    "secondaryCta": "View Resume",
+    "trustLine": "7.5+ years across Oracle enterprise platforms, Document AI products, quant systems, and VR/graphics applications.",
+    "audiences": [
+      {
+        "name": "Enterprise Teams",
+        "summary": "High-availability backend platforms, messaging, billing, secure communication, production debugging, and modernization."
+      },
+      {
+        "name": "Founders and Product Builders",
+        "summary": "MVP architecture, backend APIs, automation, deployment workflows, and practical product delivery from scratch."
+      },
+      {
+        "name": "AI and Automation Projects",
+        "summary": "Document AI, OCR, computer vision, RAG/LLM workflows, internal tools, and productivity automation."
+      }
+    ],
+    "offerHighlights": [
+      "Distributed backend architecture",
+      "Enterprise modernization",
+      "Document AI and OCR systems",
+      "MVP and product engineering",
+      "DevOps and release automation",
+      "Production debugging and RCA"
+    ],
+    "freelanceProfiles": [
+      {
+        "platform": "Upwork",
+        "url": "",
+        "status": "Planned"
+      },
+      {
+        "platform": "Fiverr",
+        "url": "",
+        "status": "Planned"
+      },
+      {
+        "platform": "Contra",
+        "url": "",
+        "status": "Planned"
+      }
+    ]
+  },
+  "quickStats": [
+    {
+      "label": "Years Experience",
+      "value": "7.5+",
+      "description": "Senior software engineering experience across enterprise backend, distributed systems, Document AI, quant, and graphics domains."
+    },
+    {
+      "label": "Core Domains",
+      "value": "8+",
+      "description": "Backend, DevOps, AI, OCR, computer vision, architecture, desktop, web."
+    },
+    {
+      "label": "Products and Systems",
+      "value": "10+",
+      "description": "Enterprise platforms, backend services, OCR systems, automation tools, quant engines, and graphics frameworks."
+    },
+    {
+      "label": "Open Source",
+      "value": "GitHub",
+      "description": "Connect live GitHub repositories and contribution data."
+    }
+  ],
+  "journey": [
+    {
+      "period": "2019",
+      "title": "Graphics and AR/VR Engineering",
+      "summary": "Started professional work in C++/Python graphics engineering, OpenSceneGraph, CAD tooling, and AR/VR-style application features.",
+      "type": "career"
+    },
+    {
+      "period": "2019-2020",
+      "title": "Quant and Trading Systems",
+      "summary": "Designed quantitative trading and backtesting workflows using C++, Qt, Python, TA-Lib, Binance APIs, feature engineering, and parallel processing.",
+      "type": "career"
+    },
+    {
+      "period": "2020-2022",
+      "title": "Document AI Product Engineering",
+      "summary": "Built a cloud-based Document AI and OCR platform from scratch with distributed processing, parser engines, OCR pipelines, search, storage, Docker, and CI/CD.",
+      "type": "career"
+    },
+    {
+      "period": "2022-Present",
+      "title": "Enterprise Distributed Systems at Oracle",
+      "summary": "Leading development across Oracle BRM and Oracle Messaging Server, including secure communication, high availability, platform modernization, production support, cloud-native readiness, and AI-assisted troubleshooting.",
+      "type": "career"
+    },
+    {
+      "period": "Now",
+      "title": "Personal Platform and Product Builder",
+      "summary": "Expanding the portfolio into a single showcase for career, products, services, experiments, writing, video content, and entrepreneurial work.",
+      "type": "personal-brand"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Oracle",
+      "location": "Bengaluru, Karnataka, India",
+      "role": "Senior Member of Technical Staff",
+      "period": "Apr 2022 - Present",
+      "summary": "Leading development across Oracle Billing and Revenue Management and Oracle Messaging Server, focused on distributed systems, secure communication, high availability, platform modernization, and enterprise-scale backend infrastructure.",
+      "highlights": [
+        "Led development and optimization of Oracle Messaging Server and BRM systems handling secure communication, routing, delivery, and distributed transaction processing.",
+        "Designed Active-Active and Active-Passive high-availability architectures for reliability, failover handling, and zero-downtime enterprise deployments.",
+        "Enabled TLS 1.3, FIPS compliance, Oracle Linux 9 migration, and security modernization across distributed services and legacy environments.",
+        "Resolved Sev1/Sev2 production issues involving SSL/TLS, networking, memory leaks, socket handling, distributed communication, and dependency conflicts.",
+        "Worked with enterprise customers during go-live, migration, upgrade, and cloud transformation activities to ensure deployment stability and production readiness.",
+        "Contributed to BRM business logic for billing workflows, rating, taxation, usage processing, transaction handling, and backend integrations.",
+        "Implemented REST APIs and backend automation services in Python for BRM integrations, operational tooling, and infrastructure automation.",
+        "Contributed to Java modernization from JDK 8 to 21, platform compatibility improvements, and cloud-native deployment readiness.",
+        "Improved observability, debugging, profiling, RCA workflows, retry mechanisms, timeout handling, queue management, and secure socket interactions.",
+        "Built AI-assisted internal knowledge base and troubleshooting workflows for faster issue resolution and reusable operational guidance."
+      ],
+      "techStack": [
+        "C/C++",
+        "Python",
+        "Java",
+        "Oracle BRM",
+        "Oracle Messaging Server",
+        "SMTP",
+        "TCP/IP",
+        "SSL/TLS",
+        "IPv6",
+        "SPF/DKIM",
+        "OCI",
+        "Kubernetes",
+        "Docker",
+        "Cassandra",
+        "Elasticsearch",
+        "Oracle DB",
+        "REST APIs"
+      ]
+    },
+    {
+      "company": "dox2U",
+      "location": "Gurugram, Haryana, India",
+      "role": "Software Engineer",
+      "period": "June 2020 - Apr 2022",
+      "summary": "Built a cloud-based Document AI and OCR platform from scratch focused on intelligent document management, distributed processing, and automation.",
+      "highlights": [
+        "Architected a distributed Document AI platform for scanned documents, PDFs, invoices, and searchable document processing.",
+        "Developed high-performance OCR and parser engines using C++, Python, FastAPI, OpenCV, Tesseract OCR, and ImageMagick.",
+        "Built intelligent document classification, preprocessing, skew correction, orientation detection, and multilingual OCR pipelines.",
+        "Designed distributed PDF processing systems enabling parallel execution and searchable PDF generation.",
+        "Integrated Kafka, Samba NAS, Azure Blob Storage, and Elasticsearch for scalable processing and real-time search.",
+        "Containerized microservices with Docker and implemented monitoring, CI/CD, SonarCloud quality gates, and Azure DevOps workflows."
+      ],
+      "techStack": [
+        "C++",
+        "Python",
+        "FastAPI",
+        "OpenCV",
+        "Tesseract OCR",
+        "ImageMagick",
+        "Kafka",
+        "Samba NAS",
+        "Azure Blob Storage",
+        "Elasticsearch",
+        "Docker",
+        "Azure DevOps",
+        "SonarCloud"
+      ]
+    },
+    {
+      "company": "Hooklabs",
+      "location": "Delhi, India",
+      "role": "Quantitative Developer",
+      "period": "June 2019 - June 2020",
+      "summary": "Designed and developed a quantitative trading and backtesting platform for automated cryptocurrency trading and market analysis.",
+      "highlights": [
+        "Architected and developed a quantitative trading and backtesting engine using C++, Qt, Python, and TA-Lib.",
+        "Built automated trading workflows integrating Binance APIs and real-time market data processing.",
+        "Implemented genetic algorithms, optimization techniques, and feature engineering for market strategy evaluation.",
+        "Processed large-scale historical datasets using concurrent and parallel processing models.",
+        "Developed analytical modules for profitability, risk analysis, and quantitative trading metrics."
+      ],
+      "techStack": [
+        "C++",
+        "Qt",
+        "Python",
+        "TA-Lib",
+        "Binance API",
+        "Concurrency",
+        "Parallel Processing",
+        "Feature Engineering",
+        "Quantitative Analysis"
+      ]
+    },
+    {
+      "company": "VizExperts",
+      "location": "Delhi, India",
+      "role": "Software Engineer - Graphics & VR/AR Systems",
+      "period": "Jan 2019 - June 2019",
+      "summary": "Worked on enterprise VR/AR and graphics applications using OpenSceneGraph, OpenGL, and Qt-based desktop systems.",
+      "highlights": [
+        "Developed save/reload and replay frameworks for VR sessions using OpenSceneGraph, Qt, JSON serialization, and rendering pipelines.",
+        "Designed Qt-based integration bridges connecting CATIA, Navisworks, and Aveva applications with VR systems.",
+        "Built API tracing, rendering analysis, and automation frameworks using Python and AutoIt.",
+        "Worked extensively on OpenGL/OSG-based desktop applications, rendering workflows, and CAD integrations."
+      ],
+      "techStack": [
+        "C++",
+        "Python",
+        "OpenSceneGraph",
+        "OpenGL",
+        "Qt",
+        "JSON",
+        "AutoIt",
+        "CAD Integrations"
+      ]
+    }
+  ],
+  "skillGroups": [
+    {
+      "name": "Backend Engineering",
+      "summary": "API design, service architecture, distributed backend platforms, enterprise integrations, and high-performance backend workflows.",
+      "skills": [
+        "Python",
+        "C++",
+        "C",
+        "Java",
+        ".NET Core",
+        "FastAPI",
+        "Django",
+        "REST APIs",
+        "SOAP APIs",
+        "SQL",
+        "MySQL",
+        "Oracle DB",
+        "Data structures",
+        "System design",
+        "Performance optimization"
+      ],
+      "level": "advanced"
+    },
+    {
+      "name": "Distributed Systems and Reliability",
+      "summary": "High-availability architectures, messaging infrastructure, transaction workflows, scalability, observability, and production readiness.",
+      "skills": [
+        "Distributed systems",
+        "High availability",
+        "Active-Active architecture",
+        "Active-Passive architecture",
+        "Messaging systems",
+        "Queue management",
+        "Retry mechanisms",
+        "Timeout handling",
+        "Observability",
+        "Root cause analysis",
+        "System reliability"
+      ],
+      "level": "advanced"
+    },
+    {
+      "name": "Enterprise Platforms and OSS/BSS",
+      "summary": "Telecom, billing, messaging, customer-facing issue resolution, enterprise platform modernization, and backend service integrations.",
+      "skills": [
+        "Oracle BRM",
+        "Oracle Messaging Server",
+        "Billing workflows",
+        "Rating",
+        "Taxation",
+        "Usage processing",
+        "Transaction handling",
+        "OSS/BSS",
+        "CRM",
+        "ERP",
+        "Enterprise integrations"
+      ],
+      "level": "advanced"
+    },
+    {
+      "name": "AI, OCR and Computer Vision",
+      "summary": "Document extraction, image preprocessing, OCR, CV workflows, ML libraries, RAG workflows, LLM integrations, and applied automation.",
+      "skills": [
+        "OpenCV",
+        "Tesseract",
+        "ImageMagick",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "NLP",
+        "RAG workflows",
+        "LLM integrations",
+        "Agent-based systems",
+        "Feature extraction",
+        "Document intelligence",
+        "Multilingual OCR"
+      ],
+      "level": "advanced"
+    },
+    {
+      "name": "DevOps and Automation",
+      "summary": "CI/CD pipelines, deployment automation, containerized services, monitoring, version control strategy, code quality, and release workflows.",
+      "skills": [
+        "Azure DevOps",
+        "Jenkins",
+        "Git",
+        "GitHub",
+        "GitLab",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "OCI",
+        "IIS",
+        "Prometheus",
+        "Grafana",
+        "MS Web Deploy",
+        "SonarQube",
+        "SonarCloud",
+        "Build pipelines",
+        "Release automation"
+      ],
+      "level": "advanced"
+    },
+    {
+      "name": "Networking and Security",
+      "summary": "Secure communication, enterprise mail infrastructure, authentication, protocol debugging, and production network troubleshooting.",
+      "skills": [
+        "SSL/TLS",
+        "TLS 1.3",
+        "FIPS",
+        "TCP/IP",
+        "SMTP",
+        "DNS",
+        "SPF/DKIM",
+        "IPv6",
+        "JWT",
+        "Authentication systems",
+        "Secure protocols",
+        "tcpdump",
+        "Wireshark"
+      ],
+      "level": "advanced"
+    },
+    {
+      "name": "Databases and Storage",
+      "summary": "Relational, NoSQL, search, object storage, NAS, and distributed storage workflows.",
+      "skills": [
+        "Oracle DB",
+        "MySQL",
+        "Cassandra",
+        "Elasticsearch",
+        "JSON",
+        "Samba NAS",
+        "Azure Blob Storage",
+        "Object Storage",
+        "Distributed storage"
+      ],
+      "level": "advanced"
+    },
+    {
+      "name": "Product and Architecture",
+      "summary": "Product breakdown, technical architecture, module design, integration planning, and delivery ownership.",
+      "skills": [
+        "Architecture design",
+        "UML",
+        "OOP",
+        "Design patterns",
+        "Agile planning",
+        "Acceptance criteria",
+        "Product modules",
+        "Integration design"
+      ],
+      "level": "advanced"
+    },
+    {
+      "name": "Frontend and Application UI",
+      "summary": "Web UI, desktop UI, data binding, and product interface development.",
+      "skills": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Angular",
+        "Bootstrap",
+        "Qt",
+        "Desktop UI"
+      ],
+      "level": "intermediate"
+    },
+    {
+      "name": "Quant and Trading Tools",
+      "summary": "Backtesting, technical indicators, market data ingestion, and strategy experimentation.",
+      "skills": [
+        "Backtesting",
+        "Technical analysis",
+        "Genetic algorithms",
+        "Statistics",
+        "Binance API",
+        "Market data",
+        "Strategy generation"
+      ],
+      "level": "intermediate"
+    }
+  ],
+  "products": [
+    {
+      "id": "oracle-brm-messaging-platforms",
+      "name": "Oracle BRM and Messaging Server Platforms",
+      "type": "Enterprise Distributed Systems",
+      "status": "Production / Enterprise",
+      "summary": "Enterprise-scale billing, revenue management, and messaging infrastructure focused on secure communication, high availability, routing, delivery, distributed transaction processing, and platform modernization.",
+      "problem": "Large enterprise and telecom systems need reliable billing, secure communication, high availability, migration readiness, production stability, and customer-specific integration support.",
+      "solution": "Distributed backend enhancements, HA architecture, TLS/security modernization, REST automation, BRM business logic, observability improvements, and production RCA workflows.",
+      "yourRole": "Senior Member of Technical Staff leading development, modernization, production issue resolution, customer-facing troubleshooting, backend automation, and reliability improvements.",
+      "features": [
+        "Secure messaging and communication layers",
+        "Billing, rating, taxation, and usage workflows",
+        "Active-Active and Active-Passive high availability",
+        "TLS 1.3 and FIPS modernization",
+        "Oracle Linux 9 and Java modernization",
+        "REST APIs and Python automation",
+        "Queue management, retries, timeout handling, and socket interactions",
+        "Customer go-live, migration, upgrade, and cloud transformation support",
+        "AI-assisted internal troubleshooting knowledge workflows"
+      ],
+      "techStack": [
+        "C/C++",
+        "Python",
+        "Java",
+        "Oracle BRM",
+        "Oracle Messaging Server",
+        "Oracle DB",
+        "Cassandra",
+        "Elasticsearch",
+        "Docker",
+        "Kubernetes",
+        "OCI",
+        "SMTP",
+        "TCP/IP",
+        "SSL/TLS",
+        "IPv6",
+        "SPF/DKIM"
+      ],
+      "impact": [
+        "Improved reliability and failover behavior for enterprise deployments",
+        "Strengthened secure communication and platform modernization readiness",
+        "Reduced troubleshooting friction through better RCA and AI-assisted knowledge workflows",
+        "Supported production-critical customer deployments, migrations, and upgrades"
+      ],
+      "links": {
+        "demo": "",
+        "github": "",
+        "caseStudy": ""
+      },
+      "media": []
+    },
+    {
+      "id": "document-intelligence-platform",
+      "name": "Intelligent Document Management / OCR Platform",
+      "type": "Enterprise Product",
+      "status": "Delivered / Contributed",
+      "summary": "A cloud-based Document AI and OCR platform for extracting, preprocessing, classifying, processing, indexing, and searching scanned documents, PDFs, invoices, and searchable document content.",
+      "problem": "Organizations need to digitize and search editable and scanned documents across large repositories.",
+      "solution": "Distributed parser engines, OCR pipelines, image preprocessing, document classification, parallel PDF processing, real-time search, cloud storage, containerized services, and CI/CD workflows.",
+      "yourRole": "Software Engineer who helped architect and build the platform from scratch, including parser engines, OCR workflows, distributed processing, integrations, DevOps, and deployment automation.",
+      "features": [
+        "Editable and non-editable document extraction",
+        "Image preprocessing",
+        "Orientation and skew correction",
+        "Document classification",
+        "Multilingual OCR pipelines",
+        "OCR using computer vision workflows",
+        "Distributed PDF processing",
+        "Searchable PDF generation",
+        "Document indexing and search",
+        "Kafka, NAS, blob storage, and Elasticsearch integrations",
+        "CI/CD and deployment automation"
+      ],
+      "techStack": [
+        "C++",
+        "FastAPI",
+        ".NET Core",
+        "Python",
+        "OpenCV",
+        "Tesseract",
+        "ImageMagick",
+        "Kafka",
+        "Samba NAS",
+        "Azure Blob Storage",
+        "Elasticsearch",
+        "Docker",
+        "Azure DevOps",
+        "SonarCloud"
+      ],
+      "impact": [
+        "Improved document digitization workflow",
+        "Enabled searchable document repositories",
+        "Reduced manual document processing effort"
+      ],
+      "links": {
+        "demo": "",
+        "github": "",
+        "caseStudy": ""
+      },
+      "media": []
+    },
+    {
+      "id": "quant-backtesting-engine",
+      "name": "Quant Trading Backtesting Engine",
+      "type": "Research / Product Prototype",
+      "status": "Prototype / Built",
+      "summary": "A desktop backtesting system for strategy generation, market analysis, and automated buy/sell testing.",
+      "problem": "Trading strategies need structured testing, feature extraction, and repeatable evaluation before live use.",
+      "solution": "Backtesting engine, technical analysis indicators, data ingestion, and strategy optimization workflows.",
+      "yourRole": "Designed, architected, and developed the tool.",
+      "features": [
+        "Strategy backtesting",
+        "Technical indicator analysis",
+        "Real-time market data ingestion",
+        "Feature generation",
+        "Genetic algorithm and brute force optimization"
+      ],
+      "techStack": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "SciPy",
+        "Scikit-learn",
+        "MySQL",
+        "Binance API"
+      ],
+      "impact": [
+        "Automated strategy testing workflows",
+        "Improved repeatability of market experiments"
+      ],
+      "links": {
+        "demo": "",
+        "github": "",
+        "caseStudy": ""
+      },
+      "media": []
+    },
+    {
+      "id": "graphics-save-load-framework",
+      "name": "Graphics Save/Load and Replay Framework",
+      "type": "Engineering System",
+      "status": "Delivered",
+      "summary": "A C++ framework for storing and replaying CAD/graphics application state using transforms, matrices, and JSON.",
+      "problem": "Graphics application users needed to return to a prior project state and restore interactive feature data.",
+      "solution": "Persisted state data such as positions, matrices, transforms, and controller data, then replayed features on reload.",
+      "yourRole": "Designed and developed the framework using C++, STL, JSON, and OpenSceneGraph workflows.",
+      "features": [
+        "Project state persistence",
+        "Transform and matrix storage",
+        "Feature replay",
+        "Controller data serialization",
+        "JSON-based save/load"
+      ],
+      "techStack": [
+        "C++",
+        "STL",
+        "JSON",
+        "OpenSceneGraph",
+        "OpenGL"
+      ],
+      "impact": [
+        "Improved graphics application workflow continuity",
+        "Enabled state restoration for complex CAD/VR scenarios"
+      ],
+      "links": {
+        "demo": "",
+        "github": "",
+        "caseStudy": ""
+      },
+      "media": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "github-portfolio",
+      "name": "OmeshDevFolio",
+      "category": "Personal Brand",
+      "status": "Active Upgrade",
+      "summary": "Personal developer portfolio being transformed into a JSON-powered showcase for career, products, services, side hustles, writing, and content.",
+      "techStack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "GitHub Pages"
+      ],
+      "links": {
+        "live": "https://omesh-sharma.github.io/omesharma/",
+        "github": "https://github.com/omesh-sharma/omesharma"
+      },
+      "featured": true
+    }
+  ],
+  "services": [
+    {
+      "id": "distributed-backend-platforms",
+      "name": "Distributed Backend Platform Engineering",
+      "summary": "Architecture and implementation support for scalable backend systems, high-availability services, secure communication, and production-grade infrastructure.",
+      "idealFor": [
+        "Enterprise platforms",
+        "Telecom and billing systems",
+        "Messaging infrastructure",
+        "High-scale backend products"
+      ],
+      "deliverables": [
+        "Distributed system architecture",
+        "High-availability design",
+        "Backend service implementation",
+        "Performance and reliability improvements",
+        "Production debugging and RCA",
+        "Observability and operational workflows"
+      ],
+      "techStack": [
+        "C/C++",
+        "Python",
+        "Java",
+        "Oracle DB",
+        "Cassandra",
+        "Elasticsearch",
+        "Docker",
+        "Kubernetes",
+        "REST APIs"
+      ]
+    },
+    {
+      "id": "enterprise-modernization",
+      "name": "Enterprise System Modernization",
+      "summary": "Modernization of legacy services, security layers, cloud-native readiness, platform compatibility, and deployment workflows.",
+      "idealFor": [
+        "Legacy enterprise products",
+        "Systems moving to cloud-native deployments",
+        "Security modernization programs",
+        "Teams handling migration or upgrade projects"
+      ],
+      "deliverables": [
+        "Modernization roadmap",
+        "Security and protocol upgrade support",
+        "Java/platform compatibility improvements",
+        "Containerization guidance",
+        "Migration and upgrade readiness",
+        "Customer-facing production support"
+      ],
+      "techStack": [
+        "Java",
+        "C/C++",
+        "Python",
+        "Docker",
+        "Kubernetes",
+        "OCI",
+        "SSL/TLS",
+        "Linux"
+      ]
+    },
+    {
+      "id": "mvp-development",
+      "name": "MVP and Product Development",
+      "summary": "End-to-end development of working products from idea to architecture, backend, frontend integration, deployment, and automation.",
+      "idealFor": [
+        "Founders",
+        "Small businesses",
+        "Internal enterprise teams",
+        "Side-hustle product builders"
+      ],
+      "deliverables": [
+        "Product requirement breakdown",
+        "System architecture",
+        "Backend/API development",
+        "Frontend integration",
+        "Deployment setup",
+        "Documentation and handover"
+      ],
+      "techStack": [
+        "Python",
+        ".NET Core",
+        "JavaScript",
+        "SQL",
+        "GitHub Pages",
+        "Azure DevOps"
+      ]
+    },
+    {
+      "id": "backend-api-architecture",
+      "name": "Backend and API Architecture",
+      "summary": "Design and development of backend services, APIs, database workflows, integrations, and scalable application modules.",
+      "idealFor": [
+        "Web products",
+        "Internal tools",
+        "Data-heavy applications",
+        "Enterprise integrations"
+      ],
+      "deliverables": [
+        "API design",
+        "Database schema planning",
+        "Service modules",
+        "Authentication and integration planning",
+        "Performance and maintainability review"
+      ],
+      "techStack": [
+        "Python",
+        ".NET Core",
+        "SQL",
+        "REST APIs",
+        "Git"
+      ]
+    },
+    {
+      "id": "ai-ocr-computer-vision",
+      "name": "AI, OCR and Computer Vision Systems",
+      "summary": "Document extraction, OCR, image preprocessing, object/text detection workflows, and applied AI automation.",
+      "idealFor": [
+        "Document-heavy businesses",
+        "Automation workflows",
+        "Data extraction products",
+        "AI-enabled internal tools"
+      ],
+      "deliverables": [
+        "OCR pipeline",
+        "Image preprocessing",
+        "Text extraction",
+        "Document indexing",
+        "Proof-of-concept AI workflow"
+      ],
+      "techStack": [
+        "Python",
+        "OpenCV",
+        "Tesseract",
+        "ImageMagick",
+        "Scikit-learn"
+      ]
+    },
+    {
+      "id": "devops-automation",
+      "name": "DevOps and Release Automation",
+      "summary": "CI/CD setup, branch strategy, build pipelines, deployment automation, and code quality integration.",
+      "idealFor": [
+        "Teams with manual deployments",
+        "Products moving to CI/CD",
+        "Legacy apps needing release automation"
+      ],
+      "deliverables": [
+        "Git strategy",
+        "CI/CD pipeline",
+        "Build and release automation",
+        "IIS or cloud deployment workflow",
+        "Code quality checks"
+      ],
+      "techStack": [
+        "Azure DevOps",
+        "Jenkins",
+        "Git",
+        "IIS",
+        "SonarQube"
+      ]
+    },
+    {
+      "id": "automation-tools",
+      "name": "Custom Automation Tools",
+      "summary": "Scripts, desktop utilities, parsers, data workflows, and internal tools that reduce repetitive manual work.",
+      "idealFor": [
+        "Operations teams",
+        "Engineering teams",
+        "Document workflows",
+        "Testing and QA workflows"
+      ],
+      "deliverables": [
+        "Automation scripts",
+        "CLI or desktop utility",
+        "Data parser",
+        "Workflow integration",
+        "Usage documentation"
+      ],
+      "techStack": [
+        "Python",
+        "C++",
+        "AutoIt",
+        "Shell scripting",
+        "APIs"
+      ]
+    }
+  ],
+  "sideHustles": [
+    {
+      "id": "trading-research",
+      "name": "Trading Strategy Research",
+      "category": "Quant / Automation",
+      "status": "Explored",
+      "summary": "Experimented with backtesting, technical indicators, feature generation, and automated market analysis.",
+      "whyIBuiltIt": "To explore automated decision systems, quantitative analysis, and strategy testing.",
+      "whatILearned": [
+        "Market data workflows",
+        "Backtesting architecture",
+        "Statistical analysis",
+        "Optimization techniques"
+      ],
+      "techStack": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Binance API"
+      ],
+      "links": {}
+    },
+    {
+      "id": "portfolio-platform",
+      "name": "Personal Portfolio Platform",
+      "category": "Personal Brand / Product",
+      "status": "In Progress",
+      "summary": "A JSON-powered personal site to showcase career, work, services, products, content, and entrepreneurial experiments.",
+      "whyIBuiltIt": "To create one single point of contact for identity, proof of work, services, and future products.",
+      "whatILearned": [
+        "Content modeling",
+        "Personal branding",
+        "Static site architecture",
+        "Portfolio storytelling"
+      ],
+      "techStack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JSON"
+      ],
+      "links": {
+        "live": "https://omesh-sharma.github.io/omesharma/"
+      }
+    }
+  ],
+  "aiLab": [
+    {
+      "id": "document-ai",
+      "name": "Document AI and OCR Workflows",
+      "status": "Professional Experience",
+      "summary": "Applied OCR, image preprocessing, table/paragraph detection, and language workflows to document management systems.",
+      "topics": [
+        "OCR",
+        "Computer vision",
+        "Image preprocessing",
+        "Document parsing",
+        "Search indexing"
+      ],
+      "links": {}
+    },
+    {
+      "id": "future-ai-agents",
+      "name": "AI Agents and Automation Ideas",
+      "status": "Planned",
+      "summary": "Future area for experiments with AI assistants, workflow automation, code agents, and practical business automations.",
+      "topics": [
+        "AI agents",
+        "Workflow automation",
+        "Developer productivity",
+        "Business automation"
+      ],
+      "links": {}
+    }
+  ],
+  "openSource": {
+    "summary": "Open-source work and GitHub repositories will be connected here.",
+    "profileUrl": "https://github.com/omesh-sharma",
+    "featuredRepos": [],
+    "contributions": []
+  },
+  "content": {
+    "blog": {
+      "enabled": true,
+      "summary": "Technical writing, project notes, lessons learned, AI experiments, product build logs, and engineering articles.",
+      "posts": []
+    },
+    "youtube": {
+      "enabled": true,
+      "channelUrl": "https://www.youtube.com/channel/UCp2f2mIBhMZpaAmXsHRnr3A/featured",
+      "summary": "Video content can include tutorials, product demos, build logs, AI experiments, and engineering explainers.",
+      "videos": []
+    },
+    "talks": [],
+    "notes": []
+  },
+  "caseStudies": [
+    {
+      "id": "case-oracle-distributed-systems",
+      "title": "Modernizing Enterprise Messaging and Billing Platforms",
+      "status": "Draft",
+      "summary": "Case study placeholder for Oracle BRM and Messaging Server work across high availability, secure communication, platform modernization, production debugging, and customer deployment readiness.",
+      "sections": {
+        "context": "",
+        "problem": "",
+        "constraints": "",
+        "approach": "",
+        "architecture": "",
+        "yourContribution": "",
+        "results": "",
+        "lessons": ""
+      },
+      "relatedProductId": "oracle-brm-messaging-platforms"
+    },
+    {
+      "id": "case-document-intelligence",
+      "title": "Building Document Intelligence and OCR Workflows",
+      "status": "Draft",
+      "summary": "Case study placeholder for document extraction, OCR, parser engine, indexing, and deployment automation.",
+      "sections": {
+        "context": "",
+        "problem": "",
+        "constraints": "",
+        "approach": "",
+        "architecture": "",
+        "yourContribution": "",
+        "results": "",
+        "lessons": ""
+      },
+      "relatedProductId": "document-intelligence-platform"
+    },
+    {
+      "id": "case-quant-backtesting",
+      "title": "Designing a Quant Backtesting Engine",
+      "status": "Draft",
+      "summary": "Case study placeholder for trading strategy research, market data, indicators, and optimization workflows.",
+      "sections": {
+        "context": "",
+        "problem": "",
+        "constraints": "",
+        "approach": "",
+        "architecture": "",
+        "yourContribution": "",
+        "results": "",
+        "lessons": ""
+      },
+      "relatedProductId": "quant-backtesting-engine"
+    }
+  ],
+  "testimonials": [
+    {
+      "source": "Client / Peer Review",
+      "name": "Coming soon",
+      "role": "Verified review placeholder",
+      "quote": "Reviews and recommendations can be added here from freelancing platforms, LinkedIn, clients, managers, or teammates.",
+      "status": "placeholder"
+    }
+  ],
+  "ratings": {
+    "summary": "Ratings, client feedback, peer recommendations, LinkedIn recommendations, and service reviews can be added here.",
+    "items": []
+  },
+  "achievements": [
+    {
+      "title": "Designed and optimized enterprise-scale distributed systems",
+      "category": "Engineering",
+      "date": "",
+      "summary": "Worked across telecom, messaging, OCR, trading, and graphics domains with backend, reliability, and architecture responsibilities."
+    },
+    {
+      "title": "Delivered production-critical enterprise fixes",
+      "category": "Production Engineering",
+      "date": "",
+      "summary": "Resolved Sev1/Sev2 production issues involving SSL/TLS, networking, memory leaks, socket handling, distributed communication, and dependency conflicts."
+    },
+    {
+      "title": "Built cloud-based Document AI platform from scratch",
+      "category": "Product Engineering",
+      "date": "",
+      "summary": "Architected and developed OCR, parser, preprocessing, distributed PDF processing, searchable PDF, indexing, storage, and CI/CD workflows."
+    },
+    {
+      "title": "Built AI-assisted internal troubleshooting workflows",
+      "category": "AI and Productivity",
+      "date": "",
+      "summary": "Created AI-assisted knowledge and troubleshooting workflows to improve engineering productivity, issue resolution speed, and reusable operational guidance."
+    }
+  ],
+  "certifications": [],
+  "education": [
+    {
+      "institution": "Chandigarh Engineering College",
+      "degree": "B.Tech",
+      "field": "Computer Science and Engineering",
+      "location": "Mohali, Punjab, India",
+      "period": "July 2015 - Dec 2018",
+      "summary": "Strong foundation in data structures, operating systems, networking, algorithms, DBMS, and computer architecture."
+    }
+  ],
+  "socials": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/omesh-sharma",
+      "icon": "github"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/omesh-sharma-2242b7144",
+      "icon": "linkedin"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/OmeSharma98",
+      "icon": "twitter"
+    },
+    {
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/OMESH-Sharma-1494908544143415/",
+      "icon": "facebook"
+    },
+    {
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/channel/UCp2f2mIBhMZpaAmXsHRnr3A/featured",
+      "icon": "youtube"
+    }
+  ],
+  "contact": {
+    "email": "sharmaomesh0@gmail.com",
+    "phone": "+91 8194946737",
+    "whatsappUrl": "https://api.whatsapp.com/send?phone=918194946737",
+    "preferredChannels": [
+      "Email",
+      "LinkedIn",
+      "WhatsApp"
+    ],
+    "callToAction": "Discuss a role, project, MVP, automation idea, or technical collaboration."
+  },
+  "site": {
+    "title": "Omesh Sharma - Developer Portfolio",
+    "description": "Portfolio of Omesh Sharma: software engineer, product builder, backend developer, DevOps engineer, AI/OCR developer, and technical consultant.",
+    "keywords": [
+      "Omesh Sharma",
+      "Software Engineer",
+      "Backend Developer",
+      "DevOps Engineer",
+      "AI Developer",
+      "OCR",
+      "Computer Vision",
+      "Product Builder",
+      "Portfolio"
+    ],
+    "url": "https://omesh-sharma.github.io/omesharma/",
+    "theme": {
+      "mode": "dark",
+      "style": "modern technical bento portfolio",
+      "accent": "electric cyan and warm red"
+    },
+    "navigation": [
+      {
+        "label": "Home",
+        "target": "home"
+      },
+      {
+        "label": "What I Do",
+        "target": "what-i-do"
+      },
+      {
+        "label": "Work With Me",
+        "target": "work-with-me"
+      },
+      {
+        "label": "Journey",
+        "target": "journey"
+      },
+      {
+        "label": "Products",
+        "target": "products"
+      },
+      {
+        "label": "Services",
+        "target": "services"
+      },
+      {
+        "label": "Lab",
+        "target": "lab"
+      },
+      {
+        "label": "Content",
+        "target": "content"
+      },
+      {
+        "label": "Contact",
+        "target": "contact"
+      }
+    ]
+  }
+}
