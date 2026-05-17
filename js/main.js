@@ -203,7 +203,7 @@
             {
                 title: "Domain Expertise",
                 priority: "high",
-                words: ["Telecom", "OSS/BSS", "Legal-Tech", "Document Ops", "Supply Chain", "BFSI", "Freelancing", "Enterprise"]
+                words: ["Telecom", "OSS/BSS",  "OpenGL(OSG)", "Vision Applications", "Graphics Engineer", "HFT (High Freq. Trading)", "Legal-Tech", "Document Ops", "Supply Chain", "BFSI", "Freelancing", "Enterprise"]
             }
         ];
         setHtml("[data-expertise-galaxies]", galaxies.map(function (galaxy, index) {
