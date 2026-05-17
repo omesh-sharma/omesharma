@@ -4,8 +4,8 @@
   "identity": {
     "name": "Omesh Sharma",
     "brandName": "OmeshDevFolio",
-    "headline": "I build systems that scale.",
-    "tagline": "Senior software engineer with 7.5+ years across Oracle enterprise platforms, distributed systems, Document AI, quant systems, and VR/graphics applications.",
+    "headline": "Solution-oriented software engineer, from concept to deployment.",
+    "tagline": "Problem solver and architect of innovative solutions, scalable systems, AI/ML workflows, MCP integrations, agents, and production-ready platforms.",
     "location": {
       "city": "Bengaluru",
       "state": "Karnataka",
@@ -15,8 +15,8 @@
     "avatar": "img/Profile-removebg-preview.png",
     "heroImage": "img/Profile-removebg-preview.png",
     "resumeUrl": "reference/Omesh_Sharma_CV_2026.pdf",
-    "shortBio": "Senior Software Engineer building distributed systems, high-performance backend platforms, enterprise applications, Document AI systems, quantitative platforms, and VR/graphics applications.",
-    "longBio": "Omesh Sharma is a senior software engineer and product-minded builder with experience across Oracle BRM, messaging infrastructure, distributed backend systems, Document AI, OCR, quantitative trading systems, and VR/graphics platforms. He works with C/C++, Python, Java, cloud-native technologies, secure communication, multithreading, system design, performance optimization, high availability, debugging, and enterprise-scale backend infrastructure."
+    "shortBio": "Solution-oriented Senior Software Engineer building scalable systems from concept to deployment across distributed platforms, backend engineering, AI/ML workflows, Document AI, MCP, agents, and enterprise applications.",
+    "longBio": "Omesh Sharma is a solution-oriented senior software engineer and product-minded builder with experience across Oracle BRM, messaging infrastructure, distributed backend systems, Document AI, OCR, AI/ML workflows, MCP and agent-based systems, quantitative trading systems, and VR/graphics platforms. He works with C/C++, Python, Java, cloud-native technologies, secure communication, multithreading, system design, performance optimization, high availability, debugging, and enterprise-scale backend infrastructure."
   },
   "positioning": {
     "primaryRole": "Senior Software Engineer",
@@ -26,6 +26,8 @@
       "DevOps Engineer",
       "Application Architect",
       "AI and Computer Vision Developer",
+      "AI/ML Engineer",
+      "Agentic Systems Engineer",
       "Automation Engineer",
       "Distributed Systems Engineer",
       "Cloud-Native Backend Engineer"
@@ -40,6 +42,7 @@
       "DevOps and CI/CD automation",
       "OCR and document intelligence",
       "RAG workflows and LLM integrations",
+      "MCP integrations and agent-based systems",
       "Computer vision and machine learning",
       "Trading and quant automation",
       "Desktop and web application development"
@@ -51,6 +54,7 @@
       "MVP and product development",
       "DevOps automation",
       "AI/OCR/computer vision solutions",
+      "AI agents, MCP workflows, and automation systems",
       "Enterprise system modernization",
       "Technical consulting",
       "Startup and founder collaboration"
@@ -65,7 +69,7 @@
     ]
   },
   "landing": {
-    "availability": "Open to senior engineering roles, consulting, MVP builds, automation work, and technical collaborations.",
+    "availability": "Open to Senior/Staff/Principal engineering roles, Senior Member or Principal Member of Technical Staff roles, Senior Application Engineer, Senior AI Engineer, Tech Lead, Solution/Software Architect, co-founder opportunities, MVP builds, consulting, career advice, brainstorming sessions, technical discussions, architecture reviews, and troubleshooting support.",
     "primaryCta": "Start a Conversation",
     "secondaryCta": "View Resume",
     "trustLine": "Trusted engineering depth across Oracle enterprise platforms, Document AI products, quant systems, and VR/graphics applications.",
@@ -87,6 +91,7 @@
       "Distributed backend architecture",
       "Enterprise modernization",
       "Document AI and OCR systems",
+      "AI agents and MCP integrations",
       "MVP and product engineering",
       "DevOps and release automation",
       "Production debugging and RCA"
@@ -95,6 +100,7 @@
       "Distributed backend platforms",
       "AI automation systems",
       "Document AI and OCR products",
+      "MCP integrations and agent workflows",
       "Enterprise modernization programs",
       "Production-ready MVPs",
       "High-availability systems",
@@ -299,7 +305,6 @@
         "C++",
         "C",
         "Java",
-        ".NET Core",
         "FastAPI",
         "Django",
         "REST APIs",
@@ -473,6 +478,263 @@
       "level": "intermediate"
     }
   ],
+  "technicalProfile": [
+    {
+      "category": "Backend Engineering",
+      "summary": "APIs, backend services, enterprise integrations, business workflows, and production backend platforms.",
+      "items": [
+        "C/C++",
+        "Python",
+        "Java",
+        ".NET Core",
+        "FastAPI",
+        "Django",
+        "REST APIs",
+        "SOAP APIs",
+        "Oracle BRM",
+        "Backend automation"
+      ]
+    },
+    {
+      "category": "Low-Level C/C++ and Systems",
+      "summary": "Systems programming, performance-sensitive modules, debugging, memory behavior, and native application development.",
+      "items": [
+        "C",
+        "C++",
+        "STL",
+        "OOP",
+        "Memory management",
+        "Pointers",
+        "RAII",
+        "Templates",
+        "GDB",
+        "Valgrind"
+      ]
+    },
+    {
+      "category": "Concurrency and Performance",
+      "summary": "Parallel execution, multithreaded processing, optimization, profiling, and high-throughput backend workflows.",
+      "items": [
+        "Multithreading",
+        "Concurrency",
+        "Parallel processing",
+        "Thread safety",
+        "Socket handling",
+        "Profiling",
+        "Performance tuning",
+        "Resource optimization",
+        "Scalability analysis"
+      ]
+    },
+    {
+      "category": "Distributed Systems",
+      "summary": "High-availability platforms, messaging infrastructure, distributed transactions, queues, reliability, and failover.",
+      "items": [
+        "Distributed systems",
+        "High availability",
+        "Active-Active",
+        "Active-Passive",
+        "Distributed transactions",
+        "Queue management",
+        "Retry mechanisms",
+        "Timeout handling",
+        "Failover",
+        "System reliability"
+      ]
+    },
+    {
+      "category": "System Design and Architecture",
+      "summary": "Architecture decisions, module boundaries, design principles, product architecture, and enterprise modernization.",
+      "items": [
+        "System design",
+        "Architecture design",
+        "Design patterns",
+        "SOLID principles",
+        "OOP design",
+        "Microservices",
+        "API-first design",
+        "Scalability",
+        "Reliability",
+        "Technical documentation"
+      ]
+    },
+    {
+      "category": "Protocols, Networking and Security",
+      "summary": "Secure communication, production protocol debugging, mail infrastructure, authentication, and network troubleshooting.",
+      "items": [
+        "SSL/TLS",
+        "TLS 1.3",
+        "FIPS",
+        "TCP/IP",
+        "SMTP",
+        "DNS",
+        "SPF/DKIM",
+        "IPv6",
+        "JWT",
+        "Secure communication"
+      ]
+    },
+    {
+      "category": "Databases and Storage",
+      "summary": "Relational, NoSQL, search, object storage, NAS, indexing, and document-heavy storage workflows.",
+      "items": [
+        "Oracle DB",
+        "MySQL",
+        "Cassandra",
+        "Elasticsearch",
+        "Kafka",
+        "Samba NAS",
+        "Azure Blob Storage",
+        "Object Storage",
+        "JSON",
+        "Distributed storage"
+      ]
+    },
+    {
+      "category": "Cloud, Containers and Kubernetes",
+      "summary": "Cloud-native readiness, containerization, orchestration, deployment architecture, and platform migration support.",
+      "items": [
+        "OCI",
+        "Azure Cloud",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Oracle Linux",
+        "Cloud migration",
+        "Containerized services",
+        "Deployment readiness"
+      ]
+    },
+    {
+      "category": "DevOps and CI/CD",
+      "summary": "Build pipelines, release automation, code quality gates, monitoring, version control, and deployment workflows.",
+      "items": [
+        "Azure DevOps",
+        "Jenkins",
+        "Git",
+        "GitHub",
+        "GitLab",
+        "SonarCloud",
+        "SonarQube",
+        "Prometheus",
+        "Grafana",
+        "MS Web Deploy"
+      ]
+    },
+    {
+      "category": "AI, OCR and Machine Learning",
+      "summary": "Document AI, OCR, computer vision, image preprocessing, NLP concepts, RAG workflows, LLM integrations, MCP, and agentic automation.",
+      "items": [
+        "Document AI",
+        "OCR",
+        "OpenCV",
+        "Tesseract",
+        "ImageMagick",
+        "Scikit-learn",
+        "AI/ML",
+        "NLP",
+        "Feature engineering",
+        "RAG workflows",
+        "LLM integrations",
+        "MCP",
+        "AI agents"
+      ]
+    },
+    {
+      "category": "MCP, Agents and AI Automation",
+      "summary": "Model Context Protocol integrations, agent workflows, AI-assisted troubleshooting, productivity automation, and internal knowledge systems.",
+      "items": [
+        "MCP",
+        "Model Context Protocol",
+        "AI agents",
+        "Agent workflows",
+        "Tool integrations",
+        "RAG",
+        "LLM integrations",
+        "AI-assisted RCA",
+        "Knowledge base automation",
+        "Workflow automation"
+      ]
+    },
+    {
+      "category": "Frontend and Application UI",
+      "summary": "Frontend integration, desktop UI, data binding, dashboards, internal tools, and application interfaces.",
+      "items": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Angular",
+        "Bootstrap",
+        "Qt Framework",
+        "Streamlit",
+        "Desktop applications",
+        "Internal tools"
+      ]
+    },
+    {
+      "category": "Engineering Tools",
+      "summary": "Debugging, tracing, automation, testing, protocol inspection, and day-to-day engineering productivity tools.",
+      "items": [
+        "GDB",
+        "Valgrind",
+        "tcpdump",
+        "Wireshark",
+        "Selenium",
+        "Apitrace",
+        "AutoIt",
+        "SmartGit",
+        "VS Code",
+        "Doxygen"
+      ]
+    },
+    {
+      "category": "Agile, Scrum and Delivery",
+      "summary": "SDLC, sprint planning, technical ownership, cross-team delivery, mentoring, and customer-facing engineering support.",
+      "items": [
+        "Agile",
+        "Scrum",
+        "Sprint planning",
+        "SDLC",
+        "Technical ownership",
+        "Architecture discussions",
+        "Mentoring",
+        "Cross-team collaboration",
+        "Customer-facing support",
+        "Technical documentation"
+      ]
+    },
+    {
+      "category": "Problem Solving and Production Support",
+      "summary": "Complex issue resolution, RCA, production debugging, migration support, customer go-live readiness, and troubleshooting.",
+      "items": [
+        "Root cause analysis",
+        "Sev1/Sev2 debugging",
+        "Memory leaks",
+        "Dependency conflicts",
+        "Network issues",
+        "Authentication failures",
+        "Scalability bottlenecks",
+        "Migration support",
+        "Upgrade support",
+        "Go-live readiness"
+      ]
+    },
+    {
+      "category": "Quant, Trading and Data Systems",
+      "summary": "Backtesting, market data, strategy evaluation, feature engineering, and quantitative research workflows.",
+      "items": [
+        "Backtesting",
+        "TA-Lib",
+        "Binance API",
+        "Market data",
+        "Genetic algorithms",
+        "Optimization",
+        "Risk metrics",
+        "Historical datasets",
+        "Quantitative analysis"
+      ]
+    }
+  ],
   "products": [
     {
       "id": "oracle-brm-messaging-platforms",
@@ -550,7 +812,6 @@
       "techStack": [
         "C++",
         "FastAPI",
-        ".NET Core",
         "Python",
         "OpenCV",
         "Tesseract",
@@ -746,7 +1007,6 @@
       ],
       "techStack": [
         "Python",
-        ".NET Core",
         "JavaScript",
         "SQL",
         "GitHub Pages",
@@ -772,7 +1032,6 @@
       ],
       "techStack": [
         "Python",
-        ".NET Core",
         "SQL",
         "REST APIs",
         "Git"
@@ -1034,7 +1293,469 @@
       "summary": "Created AI-assisted knowledge and troubleshooting workflows to improve engineering productivity, issue resolution speed, and reusable operational guidance."
     }
   ],
-  "certifications": [],
+  "certifications": {
+    "summary": "Certifications across Oracle BRM, OCI, generative AI, cloud, Kubernetes, microservices, cybersecurity, data engineering, AI/ML, C/C++, and architecture.",
+    "items": [
+      {
+        "name": "Billing and Revenue Management Engineer",
+        "issuer": "Oracle",
+        "issued": "Jan 2026",
+        "summary": "Oracle Modern Monetization and Billing and Revenue Management, including BRM components and cloud-native Kubernetes deployment concepts.",
+        "skills": [
+          "Oracle BRM",
+          "Modern Monetization",
+          "Cloud Native",
+          "Kubernetes"
+        ]
+      },
+      {
+        "name": "AI For Everyone",
+        "issuer": "Coursera",
+        "issued": "Dec 2025",
+        "credentialId": "https://www.coursera.org/account/accomplishments/certificate/ISC67B0OLNEE",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/ISC67B0OLNEE",
+        "skills": [
+          "Artificial Intelligence",
+          "AI Prompting"
+        ]
+      },
+      {
+        "name": "Satellite Internet and Communications: Fundamentals",
+        "issuer": "LinkedIn",
+        "issued": "Jan 2025",
+        "credentialId": "8adc99e5af453c07ce63ea57dfad8e5b2b4d3734e0e4092ab76268be27268ae8"
+      },
+      {
+        "name": "Introduction To 5G",
+        "issuer": "LinkedIn",
+        "issued": "Jan 2025",
+        "credentialId": "2cd322ae5e8bbc549d7e06d6c891bc8ecc964bdf603e9464948e2dd765ef9d8c",
+        "skills": [
+          "Telecommunications",
+          "5G"
+        ]
+      },
+      {
+        "name": "Rust for Data Engineering",
+        "issuer": "LinkedIn",
+        "issued": "Jan 2025",
+        "credentialId": "b01f1a48ac05711e4722408e068a1617af3bf8f3538b00c01fe29a1197c99d54",
+        "skills": [
+          "Rust",
+          "Data Engineering"
+        ]
+      },
+      {
+        "name": "Gradle for Java-Based Applications and Libraries",
+        "issuer": "LinkedIn",
+        "issued": "Oct 2024",
+        "credentialId": "125e3ba17fa020d35a5d1f5c1bc7a393e47fa010b8f83218d2c67a5fcf02d6d1"
+      },
+      {
+        "name": "Oracle Cloud Infrastructure 2024 Generative AI Professional (1Z0-1127-24)",
+        "issuer": "Oracle",
+        "issued": "Aug 2024",
+        "credentialId": "E4F5FBF3850DED7C8CE3EA7BD8E4F40B70D05EA9993CC57F8B3F496147C2EA6F",
+        "skills": [
+          "Generative AI",
+          "AI Prompting",
+          "OCI"
+        ]
+      },
+      {
+        "name": "AWS Certified Developer - Associate (DVA-C02) Cert",
+        "issuer": "LinkedIn",
+        "issued": "May 2024",
+        "credentialId": "b4e99b03bd756c95d51d6fc90b8c83bd21ba8068d4a449f97baed2eb0e19b6e8",
+        "skills": [
+          "Cloud Infrastructure",
+          "Cloud Development"
+        ]
+      },
+      {
+        "name": "Software Architecture Foundations",
+        "issuer": "LinkedIn",
+        "issued": "Mar 2024",
+        "credentialId": "d606d579147a80071a70483e3ae9fc46ba5181e1405ef9bab9795c303348097c",
+        "skills": [
+          "Software Architecture",
+          "System Architecture"
+        ]
+      },
+      {
+        "name": "Learning Vim",
+        "issuer": "LinkedIn",
+        "issued": "Mar 2024",
+        "credentialId": "ca5835da4593c24ba93fed1d71801c389ebba13f1d0440363f94dc44a6cf097c",
+        "skills": [
+          "Vim",
+          "Linux"
+        ]
+      },
+      {
+        "name": "Learning Microsoft 365 Copilot",
+        "issuer": "LinkedIn",
+        "issued": "Feb 2024",
+        "credentialId": "c84f05a9bac5b2db0f94b8fbcbb5a53323bc55b0eb3f23fd672b75c894bf3b5b",
+        "skills": [
+          "Artificial Intelligence"
+        ]
+      },
+      {
+        "name": "Introduction to Artificial Intelligence",
+        "issuer": "LinkedIn",
+        "issued": "Feb 2024",
+        "credentialId": "64ce76fc81cca0536e7dab87df16c47dad6bc13a34648e012fb09b10518993a6",
+        "skills": [
+          "Artificial Intelligence"
+        ]
+      },
+      {
+        "name": "Generative AI: The Evolution of Thoughtful Online Search",
+        "issuer": "LinkedIn",
+        "issued": "Feb 2024",
+        "credentialId": "6e5881b57b0da72a6b9a81904c2f77c6c8f5be7c9dafed9c70de02d7e7bcd326",
+        "skills": [
+          "Prompt Engineering"
+        ]
+      },
+      {
+        "name": "Generative AI",
+        "issuer": "LinkedIn",
+        "issued": "Feb 2024",
+        "credentialId": "e53eee9f7e16680557e234cdb657ea63060cc77f8ba777eae9560cc7f14e7819",
+        "skills": [
+          "Artificial Intelligence"
+        ]
+      },
+      {
+        "name": "Discrete Mathematics",
+        "issuer": "LinkedIn",
+        "issued": "Feb 2024",
+        "credentialId": "5b9356d2b7ec04cd380f3e8c5030eeff4a1f0726bd3cbfeb262ffaed7d13b034",
+        "skills": [
+          "Discrete Mathematics"
+        ]
+      },
+      {
+        "name": "Cybersecurity Foundations Exam",
+        "issuer": "National Association of State Boards of Accountancy (NASBA)",
+        "issued": "Jan 2024",
+        "credentialId": "d08b0caf7a065351a83c83e1bf957213f94e993918a2b17858d55e93bb69be9b",
+        "skills": [
+          "Cybersecurity"
+        ]
+      },
+      {
+        "name": "Cybersecurity Foundations",
+        "issuer": "Project Management Institute",
+        "issued": "Jan 2024",
+        "credentialId": "25a0e863e7ee726f202a7b02c495e8f4fa25b4ab0da9c3e11f7555d7390d4524",
+        "skills": [
+          "Cybersecurity"
+        ]
+      },
+      {
+        "name": "Cybersecurity Foundations",
+        "issuer": "LinkedIn",
+        "issued": "Jan 2024",
+        "credentialId": "0d5439e57192846c45d043064a5aed948305a39025a1237fc72a9f3faa7fd8dd",
+        "skills": [
+          "Cybersecurity"
+        ]
+      },
+      {
+        "name": "Learning Oracle Database 19c",
+        "issuer": "LinkedIn",
+        "issued": "Jan 2024",
+        "credentialId": "08dffb12501b00f3220d435e14183d6a5aacbad17c2599a1cea45b1c7400ba4c",
+        "skills": [
+          "Databases"
+        ]
+      },
+      {
+        "name": "Advanced Pandas",
+        "issuer": "LinkedIn",
+        "issued": "Jan 2024",
+        "credentialId": "a2624bc0211a61ba6eecb91979be6d097392e4d0f5d187d816459ebc703c5752",
+        "skills": [
+          "Python"
+        ]
+      },
+      {
+        "name": "Advanced Terraform",
+        "issuer": "LinkedIn",
+        "issued": "Dec 2023",
+        "credentialId": "8d20b5a4cd158a14c817cd514785786e0d225bda3cded77ccc238d446ba159ee"
+      },
+      {
+        "name": "Kubernetes for Beginners",
+        "issuer": "O'Reilly",
+        "issued": "Dec 2023",
+        "skills": [
+          "Kubernetes"
+        ]
+      },
+      {
+        "name": "Tableau Essential Training",
+        "issuer": "LinkedIn",
+        "issued": "Nov 2023",
+        "credentialId": "915c28fa1c065f31c9c0a175c6cb94ee135aef5d545cf211152df4f0e523c552"
+      },
+      {
+        "name": "Oracle Cloud Infrastructure 2023 Certified Foundations Associate",
+        "issuer": "Oracle",
+        "issued": "Oct 2023",
+        "skills": [
+          "Cloud Infrastructure",
+          "OCI"
+        ]
+      },
+      {
+        "name": "ODA Components Foundation-Level",
+        "issuer": "TM Forum",
+        "issued": "Oct 2023",
+        "skills": [
+          "Microservices"
+        ]
+      },
+      {
+        "name": "TM Forum Open Api Fundamentals",
+        "issuer": "TM Forum",
+        "issued": "Oct 2023",
+        "skills": [
+          "Open API"
+        ]
+      },
+      {
+        "name": "Quantum Computing Fundamentals",
+        "issuer": "LinkedIn",
+        "issued": "Oct 2023",
+        "credentialId": "95d9d7bb2a652b4f56ac08f91b848d5b8e42cdc046e4709aaa56c93d079fff1b"
+      },
+      {
+        "name": "Open Digital Architecture Fundamentals",
+        "issuer": "TM Forum",
+        "issued": "Oct 2023",
+        "skills": [
+          "Microservices"
+        ]
+      },
+      {
+        "name": "TM Forum Open Api",
+        "issuer": "TM Forum",
+        "issued": "Oct 2023",
+        "credentialId": "185422306",
+        "skills": [
+          "Open API"
+        ]
+      },
+      {
+        "name": "Apache Kafka Essential Training",
+        "issuer": "LinkedIn",
+        "credentialId": "d48bcb7d126d2cfef46bf77fb774766759acd02461a33f7725fe813063fd5568",
+        "skills": [
+          "Kafka",
+          "Java"
+        ]
+      },
+      {
+        "name": "Google Dataflow and Apache Beam",
+        "issuer": "Oracle",
+        "skills": [
+          "Python",
+          "Data Engineering"
+        ]
+      },
+      {
+        "name": "Developing Web Applications using Django framework",
+        "issuer": "Oracle",
+        "issued": "Apr 2023",
+        "skills": [
+          "Web Development",
+          "Python",
+          "Django"
+        ]
+      },
+      {
+        "name": "Data Engineering Foundations",
+        "issuer": "LinkedIn",
+        "issued": "Aug 2023",
+        "credentialId": "4f67b513320d4c4ce8a4d97116a7adca8f9d08349c3dbd189e8b97679e2fe4bb",
+        "skills": [
+          "Databases",
+          "Python",
+          "Data Engineering"
+        ]
+      },
+      {
+        "name": "Introduction to Prompt Engineering for Generative AI",
+        "issuer": "LinkedIn",
+        "issued": "Jul 2023",
+        "credentialId": "d239e9259619b63158eae814fc99ebcae866fae0d3c4b7f3278fe145288e8f64",
+        "skills": [
+          "Prompt Engineering",
+          "Machine Learning"
+        ]
+      },
+      {
+        "name": "Training Neural Networks in C++",
+        "issuer": "LinkedIn",
+        "issued": "Jul 2023",
+        "credentialId": "21a2800feed1aea6800714c3e571b2462cf4bd7546850600b387d550779c5b84",
+        "skills": [
+          "C/C++",
+          "Machine Learning"
+        ]
+      },
+      {
+        "name": "Machine Learning Foundations: Calculus",
+        "issuer": "LinkedIn",
+        "issued": "Jul 2023",
+        "credentialId": "0a5b8b0383d593252d029c966992526e1c0d0fd4f054bf77b2bd07accdaac1e1",
+        "skills": [
+          "Machine Learning"
+        ]
+      },
+      {
+        "name": "Microservices Foundations",
+        "issuer": "LinkedIn",
+        "issued": "Jul 2023",
+        "credentialId": "7b8ee5c4f09e472f40a64a27fdf0a084f8e3245a70272e150b13ae920d4e623e",
+        "skills": [
+          "Microservices"
+        ]
+      },
+      {
+        "name": "Microservices: Design Patterns",
+        "issuer": "LinkedIn",
+        "issued": "Jul 2023",
+        "credentialId": "35c03a0113c782afc3330f3dc7e814ac8c16dedfab3f22a876620c849bcadfa7",
+        "skills": [
+          "Microservices",
+          "Design Patterns"
+        ]
+      },
+      {
+        "name": "Problem Solving and Customer Satisfaction",
+        "issuer": "Oracle",
+        "issued": "May 2023"
+      },
+      {
+        "name": "Cloud Architecture: Advanced Concepts",
+        "issuer": "LinkedIn",
+        "issued": "May 2023",
+        "credentialId": "AcmR9cOsAAGylX83GaG7Nd9NSTss",
+        "skills": [
+          "Cloud Infrastructure"
+        ]
+      },
+      {
+        "name": "Artificial Intelligence Foundations: Machine Learning",
+        "issuer": "LinkedIn",
+        "issued": "May 2023",
+        "credentialId": "AcT8T2ZwuJiilg1C8wJ2ugyrpjaq",
+        "skills": [
+          "Machine Learning",
+          "Artificial Intelligence"
+        ]
+      },
+      {
+        "name": "Raspberry Pi Essential Training",
+        "issuer": "LinkedIn",
+        "issued": "Apr 2023",
+        "credentialId": "Af1GTwlhmreoftgGXPfb2NoH8pHn"
+      },
+      {
+        "name": "C Programming for Embedded Applications Part 1",
+        "issuer": "LinkedIn",
+        "issued": "Apr 2023",
+        "credentialId": "AZcJ7GEeE_AfYBS9E9m7vGCDKIif"
+      },
+      {
+        "name": "Digital Marketing Foundations",
+        "issuer": "LinkedIn",
+        "issued": "Apr 2023",
+        "credentialId": "ATdCAc2yYl9908Vc2Nz6g4G2CqZl"
+      },
+      {
+        "name": "Technical Product Management",
+        "issuer": "LinkedIn",
+        "issued": "Apr 2023",
+        "credentialId": "AU1R7KALIiABqGDAb3Y2HcoD0RrV"
+      },
+      {
+        "name": "Hardening Kubernetes",
+        "issuer": "Oracle",
+        "issued": "Dec 2022",
+        "skills": [
+          "DevOps",
+          "Kubernetes"
+        ]
+      },
+      {
+        "name": "How a hacker thinks",
+        "issuer": "Oracle",
+        "issued": "Nov 2022"
+      },
+      {
+        "name": "Advanced Docker And Kubernetes",
+        "issuer": "Oracle",
+        "issued": "Jul 2022",
+        "skills": [
+          "Docker",
+          "Kubernetes"
+        ]
+      },
+      {
+        "name": "Web3",
+        "issuer": "LinkedIn",
+        "issued": "Aug 2022",
+        "credentialId": "AVyIfgWjFKjQ5voepTsCb-HV3wOy"
+      },
+      {
+        "name": "Parallel and Concurrent Programming with C++ Part 2",
+        "issuer": "LinkedIn",
+        "issued": "Apr 2022",
+        "credentialId": "AS9pqFvKnNjCpOlEDOPsKQAh8eqw"
+      },
+      {
+        "name": "Parallel and Concurrent Programming with C++",
+        "issuer": "LinkedIn",
+        "credentialId": "AcYX6zV0Y8BOE7FqO5GOXD3Wkaj9"
+      },
+      {
+        "name": "Learning Docker",
+        "issuer": "LinkedIn",
+        "issued": "Jan 2022",
+        "credentialId": "AcrVE82GCkcxAKBrScKEPY9gKXkd"
+      },
+      {
+        "name": "DevOps Foundations: Containers",
+        "issuer": "LinkedIn",
+        "issued": "Jan 2022",
+        "credentialId": "AX7a09nNE61x1wJ3DEKc43vUFakH"
+      },
+      {
+        "name": "Learning Data Visualization",
+        "issuer": "LinkedIn"
+      },
+      {
+        "name": "Amcat",
+        "issuer": "Amcat"
+      },
+      {
+        "name": "Capgemini tech challenge",
+        "issuer": "Capgemini"
+      },
+      {
+        "name": "GAIT",
+        "issuer": "GAIT",
+        "issued": "Aug 2018",
+        "credentialId": "1808CU0000000699"
+      }
+    ]
+  },
   "education": [
     {
       "institution": "Chandigarh Engineering College",
@@ -1113,6 +1834,10 @@
         "target": "what-i-do"
       },
       {
+        "label": "Tech Stack",
+        "target": "tech-stack"
+      },
+      {
         "label": "Work With Me",
         "target": "work-with-me"
       },
@@ -1127,6 +1852,10 @@
       {
         "label": "Services",
         "target": "services"
+      },
+      {
+        "label": "Certifications",
+        "target": "certifications"
       },
       {
         "label": "Lab",

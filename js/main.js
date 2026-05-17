@@ -170,6 +170,20 @@
         }).join(""));
     }
 
+    function renderTechnicalProfile(profile) {
+        setHtml("[data-technical-profile]", (profile.technicalProfile || []).map(function (item) {
+            return [
+                '<article class="tech-card">',
+                '<div class="tech-card-head">',
+                '<span>' + escapeHtml(item.category) + "</span>",
+                "</div>",
+                '<p>' + escapeHtml(item.summary) + "</p>",
+                '<div class="mini-tags">' + tags((item.items || []).slice(0, 12)) + "</div>",
+                "</article>"
+            ].join("");
+        }).join(""));
+    }
+
     function renderJourney(profile) {
         setHtml("[data-journey]", (profile.journey || []).map(function (item) {
             return [
@@ -318,6 +332,70 @@
         }).join(""));
     }
 
+    function certificationCategory(item) {
+        var text = [
+            item.name,
+            item.issuer,
+            (item.skills || []).join(" ")
+        ].join(" ").toLowerCase();
+        if (text.indexOf("oracle") >= 0) {
+            return "Oracle";
+        }
+        if (text.indexOf("linkedin") >= 0) {
+            return "LinkedIn";
+        }
+        if (text.indexOf("ai") >= 0 || text.indexOf("artificial intelligence") >= 0 || text.indexOf("machine learning") >= 0 || text.indexOf("generative") >= 0 || text.indexOf("prompt") >= 0) {
+            return "AI";
+        }
+        if (text.indexOf("cloud") >= 0 || text.indexOf("kubernetes") >= 0 || text.indexOf("docker") >= 0 || text.indexOf("terraform") >= 0 || text.indexOf("oci") >= 0 || text.indexOf("aws") >= 0) {
+            return "Cloud";
+        }
+        if (text.indexOf("cybersecurity") >= 0 || text.indexOf("hacker") >= 0 || text.indexOf("security") >= 0) {
+            return "Security";
+        }
+        return "Other";
+    }
+
+    function renderCertificationSection(profile) {
+        var certifications = ((profile.certifications && profile.certifications.items) || []).filter(Boolean);
+        setText("[data-certification-summary]", certifications.length + " certifications across Oracle BRM, OCI, AI/ML, cloud, Kubernetes, microservices, cybersecurity, data engineering, C/C++, and architecture.");
+        setHtml("[data-certification-grid]", certifications.map(function (item) {
+            var category = certificationCategory(item);
+            return [
+                '<article class="cert-card" data-cert-category="' + escapeHtml(category) + '">',
+                '<div class="cert-meta">',
+                '<span>' + escapeHtml(item.issuer || "Certification") + "</span>",
+                '<span>' + escapeHtml(item.issued || "") + "</span>",
+                "</div>",
+                '<h3>' + escapeHtml(item.name || item.title || "") + "</h3>",
+                item.summary ? '<p>' + escapeHtml(item.summary) + "</p>" : "",
+                item.skills ? '<div class="mini-tags">' + tags(item.skills.slice(0, 5)) + "</div>" : "",
+                item.url ? link("View credential", item.url, "text-link") : "",
+                "</article>"
+            ].join("");
+        }).join(""));
+        setupCertificationFilters();
+    }
+
+    function setupCertificationFilters() {
+        var buttons = $all("[data-cert-filter]");
+        var cards = $all("[data-cert-category]");
+        buttons.forEach(function (button) {
+            button.addEventListener("click", function () {
+                var filter = button.getAttribute("data-cert-filter");
+                buttons.forEach(function (item) {
+                    item.classList.toggle("is-active", item === button);
+                });
+                cards.forEach(function (card) {
+                    var category = card.getAttribute("data-cert-category");
+                    var text = card.textContent.toLowerCase();
+                    var show = filter === "all" || category === filter || text.indexOf(filter.toLowerCase()) >= 0;
+                    card.hidden = !show;
+                });
+            });
+        });
+    }
+
     function renderContent(profile) {
         var blogCount = (profile.content.blog.posts || []).length;
         var videoCount = (profile.content.youtube.videos || []).length;
@@ -410,12 +488,14 @@
         renderHero(profile);
         renderLanding(profile);
         renderFocus(profile);
+        renderTechnicalProfile(profile);
         renderJourney(profile);
         renderExperience(profile);
         renderProducts(profile);
         renderServices(profile);
         renderLab(profile);
         renderProof(profile);
+        renderCertificationSection(profile);
         renderContent(profile);
         renderContact(profile);
         setupNavigation();
