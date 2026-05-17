@@ -71,7 +71,7 @@
     ]
   },
   "landing": {
-    "availability": "Open to Senior/Staff/Principal engineering roles, Senior Member or Principal Member of Technical Staff roles, Senior Application Engineer, Senior AI Engineer, Tech Lead, Solution/Software Architect, co-founder opportunities, MVP builds, consulting, career advice, brainstorming sessions, technical discussions, architecture reviews, and troubleshooting support.",
+    "availability": "Best Fit for Senior/Staff/Principal engineering roles, Senior Member or Principal Member of Technical Staff roles, Senior Application Engineer, Senior AI Engineer, Tech Lead, Solution/Software Architect, co-founder opportunities, MVP builds, consulting, career advice, brainstorming sessions, technical discussions, architecture reviews, and troubleshooting support.",
     "primaryCta": "Start a Conversation",
     "secondaryCta": "View Resume",
     "trustLine": "Trusted engineering depth across Oracle enterprise platforms, Document AI products, quant systems, and VR/graphics applications.",
@@ -547,7 +547,6 @@
         "C/C++",
         "Python",
         "Java",
-        ".NET Core",
         "FastAPI",
         "Django",
         "REST APIs",

@@ -143,7 +143,7 @@
             {
                 title: "Backend",
                 priority: "high",
-                words: ["C/C++", "Python", "Java", "FastAPI", "Django", ".NET Core", "REST", "SOAP", "Oracle BRM", "APIs"]
+                words: ["C/C++", "Python", "Java", "FastAPI", "Django", "REST", "SOAP", "Oracle BRM", "APIs"]
             },
             {
                 title: "Cloud / DevOps",
