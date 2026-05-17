@@ -347,8 +347,7 @@ p {
     border: 1px solid var(--line);
     border-radius: var(--radius);
     background:
-        radial-gradient(circle at center, rgba(67, 217, 255, 0.16), transparent 32%),
-        linear-gradient(135deg, rgba(114, 240, 165, 0.08), rgba(255, 92, 108, 0.06)),
+        linear-gradient(135deg, rgba(58, 185, 255, 0.09), rgba(114, 240, 165, 0.1) 48%, rgba(95, 92, 255, 0.07)),
         rgba(19, 25, 35, 0.78);
     box-shadow: var(--shadow);
 }
@@ -358,7 +357,7 @@ p {
     width: 285px;
     height: 315px;
     border-radius: 50% / 42%;
-    background: radial-gradient(ellipse at center, rgba(67, 217, 255, 0.18), transparent 68%);
+    background: radial-gradient(ellipse at center, rgba(114, 240, 165, 0.1), rgba(67, 217, 255, 0.05) 42%, transparent 70%);
     content: "";
 }
 
@@ -367,8 +366,8 @@ p {
     inset: 0;
     opacity: 0.7;
     background:
-        linear-gradient(24deg, transparent 47%, rgba(67, 217, 255, 0.15) 49%, transparent 51%),
-        linear-gradient(154deg, transparent 48%, rgba(114, 240, 165, 0.13) 50%, transparent 52%),
+        linear-gradient(24deg, transparent 47%, rgba(114, 240, 165, 0.16) 49%, transparent 51%),
+        linear-gradient(154deg, transparent 48%, rgba(67, 217, 255, 0.14) 50%, transparent 52%),
         linear-gradient(90deg, transparent 49%, rgba(255, 255, 255, 0.08) 50%, transparent 51%);
     background-size: 220px 140px, 260px 160px, 180px 180px;
 }
@@ -394,14 +393,15 @@ p {
     height: 285px;
     object-fit: cover;
     object-position: top center;
-    border: 1px solid rgba(67, 217, 255, 0.36);
+    border: 1px solid rgba(114, 240, 165, 0.42);
     border-radius: 50% / 42%;
     background:
-        radial-gradient(circle at 50% 42%, rgba(67, 217, 255, 0.2), transparent 58%),
+        radial-gradient(circle at 50% 42%, rgba(114, 240, 165, 0.1), transparent 58%),
         linear-gradient(180deg, rgba(19, 25, 35, 0.2), rgba(8, 11, 16, 0.08));
     box-shadow:
-        0 0 0 10px rgba(67, 217, 255, 0.045),
-        0 0 70px rgba(67, 217, 255, 0.2),
+        0 0 0 8px rgba(114, 240, 165, 0.025),
+        0 0 48px rgba(114, 240, 165, 0.1),
+        0 0 82px rgba(67, 217, 255, 0.07),
         0 22px 70px rgba(0, 0, 0, 0.34);
     filter: saturate(1.05) contrast(1.02);
 }
@@ -475,18 +475,10 @@ p {
     border-radius: 18px;
     color: var(--soft);
     background:
-        radial-gradient(circle at 50% 18%, rgba(67, 217, 255, 0.12), transparent 42%),
+        linear-gradient(135deg, rgba(114, 240, 165, 0.06), rgba(67, 217, 255, 0.04)),
         rgba(8, 11, 16, 0.18);
     box-shadow: none;
     backdrop-filter: blur(12px);
-}
-
-.galaxy::after {
-    position: absolute;
-    inset: 8px;
-    border: 1px dashed rgba(255, 255, 255, 0.12);
-    border-radius: 50%;
-    content: "";
 }
 
 .galaxy strong {
@@ -495,7 +487,7 @@ p {
     width: fit-content;
     margin-bottom: 2px;
     padding: 5px 8px;
-    border: 1px solid rgba(67, 217, 255, 0.2);
+    border: 1px solid rgba(114, 240, 165, 0.24);
     border-radius: 999px;
     background: rgba(8, 11, 16, 0.74);
     color: var(--text);
@@ -528,7 +520,7 @@ p {
 .galaxy-high {
     transform: none;
     background:
-        radial-gradient(circle at 50% 22%, rgba(67, 217, 255, 0.18), transparent 48%),
+        linear-gradient(135deg, rgba(114, 240, 165, 0.1), rgba(67, 217, 255, 0.06)),
         rgba(8, 11, 16, 0.2);
 }
 
@@ -1448,7 +1440,7 @@ p {
     .hero-top-visual {
         min-height: 580px;
         grid-template-columns: 1fr;
-        grid-template-rows: 220px auto;
+        grid-template-rows: 220px auto auto;
         align-items: center;
         padding-top: 0;
     }
@@ -1514,10 +1506,10 @@ p {
 
     .profile-badges {
         grid-column: 1;
-        grid-row: 1;
-        align-self: end;
+        grid-row: 2;
+        align-self: start;
         max-width: calc(100% - 20px);
-        margin-top: 0;
+        margin-top: -4px;
     }
 
     .profile-badges span {
@@ -1537,7 +1529,7 @@ p {
     .galaxy-map {
         position: relative;
         grid-column: 1;
-        grid-row: 2;
+        grid-row: 3;
         width: calc(100% - 20px);
         height: auto;
         display: grid;
