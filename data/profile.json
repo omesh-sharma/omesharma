@@ -209,25 +209,25 @@
   ],
   "journey": [
     {
-      "period": "2019",
+      "period": "2019 (vizExperts)",
       "title": "Graphics and AR/VR Engineering",
       "summary": "Started professional work in C++/Python graphics engineering, OpenSceneGraph, CAD tooling, and AR/VR-style application features.",
       "type": "career"
     },
     {
-      "period": "2019-2020",
+      "period": "2019-2020 (HookLabs)",
       "title": "Quant and Trading Systems",
       "summary": "Designed quantitative trading and backtesting workflows using C++, Qt, Python, TA-Lib, Binance APIs, feature engineering, and parallel processing.",
       "type": "career"
     },
     {
-      "period": "2020-2022",
+      "period": "2020-2022 (Dox2U)",
       "title": "Document AI Product Engineering",
       "summary": "Built a cloud-based Document AI and OCR platform from scratch with distributed processing, parser engines, OCR pipelines, search, storage, Docker, and CI/CD.",
       "type": "career"
     },
     {
-      "period": "2022-Present",
+      "period": "2022-Present (Oracle)",
       "title": "Enterprise Distributed Systems at Oracle",
       "summary": "Leading development across Oracle BRM and Oracle Messaging Server, including secure communication, high availability, platform modernization, production support, cloud-native readiness, and AI-assisted troubleshooting.",
       "type": "career"
