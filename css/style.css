@@ -406,6 +406,49 @@ p {
     filter: saturate(1.05) contrast(1.02);
 }
 
+.profile-badges {
+    position: relative;
+    z-index: 6;
+    grid-column: 2;
+    grid-row: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    align-self: start;
+    max-width: 420px;
+    margin-top: -2px;
+}
+
+.profile-badges span {
+    display: inline-flex;
+    min-height: 26px;
+    align-items: center;
+    padding: 4px 7px;
+    border: 1px solid rgba(67, 217, 255, 0.2);
+    border-radius: 999px;
+    color: var(--soft);
+    background: rgba(8, 11, 16, 0.7);
+    font-size: 10.5px;
+    font-weight: 850;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(10px);
+}
+
+.profile-badges span:nth-child(1)::before { content: "🚀 "; }
+.profile-badges span:nth-child(2)::before { content: "💻 "; }
+.profile-badges span:nth-child(3)::before { content: "🏢 "; }
+.profile-badges span:nth-child(4)::before { content: "🧭 "; }
+.profile-badges span:nth-child(5)::before { content: "🤖 "; }
+.profile-badges span:nth-child(6)::before { content: "📡 "; }
+.profile-badges span:nth-child(7)::before { content: "👁️ "; }
+.profile-badges span:nth-child(8)::before { content: "🎛️ "; }
+.profile-badges span:nth-child(9)::before { content: "📈 "; }
+.profile-badges span:nth-child(10)::before { content: "⚙️ "; }
+.profile-badges span:nth-child(11)::before { content: "🧩 "; }
+.profile-badges span:nth-child(12)::before { content: "🤝 "; }
+.profile-badges span:nth-child(13)::before { content: "🛠️ "; }
+
 .galaxy-map {
     position: relative;
     grid-column: 1 / -1;
@@ -1467,6 +1510,19 @@ p {
         height: 210px;
         grid-column: 1;
         grid-row: 1;
+    }
+
+    .profile-badges {
+        grid-column: 1;
+        grid-row: 1;
+        align-self: end;
+        max-width: calc(100% - 20px);
+        margin-top: 0;
+    }
+
+    .profile-badges span {
+        min-height: 24px;
+        font-size: 10px;
     }
 
     .galaxy {

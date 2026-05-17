@@ -219,6 +219,25 @@
             ].join("");
         }).join(""));
 
+        var profileBadges = [
+            "Entrepreneurial Builder",
+            "Senior Software Engineer",
+            "Product-Based MNC Experience",
+            "Solution-Oriented Architect",
+            "AI / LLM / MCP",
+            "Telecom Systems",
+            "Vision Apps",
+            "Graphics Engineering",
+            "Trading Applications",
+            "Automation",
+            "Orchestration",
+            "Communication & Collaboration",
+            "Problem Solving"
+        ];
+        setHtml("[data-profile-badges]", profileBadges.map(function (badge) {
+            return '<span>' + escapeHtml(badge) + "</span>";
+        }).join(""));
+
         setHtml("[data-hero-actions]", [
             link(profile.landing.primaryCta || "Start a Conversation", profile.contact.whatsappUrl || "mailto:" + profile.contact.email, "button button-primary"),
             link(profile.landing.secondaryCta || "View Resume", profile.identity.resumeUrl, "button"),
