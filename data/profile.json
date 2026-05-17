@@ -156,6 +156,33 @@
       "On-premise products",
       "Customer-specific customization",
       "AI-enabled workflows"
+    ],
+    "customerDomainsServed": [
+      {
+        "name": "BFSI",
+        "fullName": "Banking, Financial Services, and Insurance",
+        "summary": "Document-heavy workflows such as KYC, bank statements, invoices, loan documents, financial records, and insurance claim processing."
+      },
+      {
+        "name": "Legal and Judicial Research",
+        "summary": "Public hearing data extraction, eCourts workflows, summarization, and research automation."
+      },
+      {
+        "name": "Accounting and SMEs",
+        "summary": "Invoice extraction, PDF/image to Excel conversion, recurring file processing, and manual office workflow automation."
+      },
+      {
+        "name": "Supply Chain and Procurement",
+        "summary": "Validation flows, quotation templates, purchase order generation, and business-rule automation."
+      },
+      {
+        "name": "Marketing and Research",
+        "summary": "Target website scraping, Excel dataset generation, lead/research data preparation, and structured reporting."
+      },
+      {
+        "name": "Education and Records",
+        "summary": "Certificate processing, student records, forms, mark sheets, and scanned document digitization."
+      }
     ]
   },
   "quickStats": [
@@ -829,7 +856,7 @@
       ],
       "links": {
         "trial": "https://docs.google.com/forms/d/e/1FAIpQLScNSearqey-STHcb9eZxYl1oiXtNxoEcAvpLqPU8EPafxJpkQ/viewform",
-        "youtube": "https://youtu.be/ghCXhzyKre0?si=V4oDBtzeUI5hoCo8",
+        "youtube": "https://www.youtube.com/watch?v=v678dX_n-Pk&list=PLk4EHZC7JcYTKbGlp-S9CH11l0H1Ew_0R&index=10",
         "demo": "",
         "github": "",
         "caseStudy": ""
@@ -838,7 +865,7 @@
         {
           "type": "youtube",
           "title": "Smart Data Extraction to Excel Demo",
-          "url": "https://youtu.be/ghCXhzyKre0?si=V4oDBtzeUI5hoCo8"
+          "url": "https://www.youtube.com/watch?v=v678dX_n-Pk&list=PLk4EHZC7JcYTKbGlp-S9CH11l0H1Ew_0R&index=10"
         }
       ]
     },
@@ -1565,7 +1592,7 @@
       ],
       "links": {
         "trial": "https://docs.google.com/forms/d/e/1FAIpQLScNSearqey-STHcb9eZxYl1oiXtNxoEcAvpLqPU8EPafxJpkQ/viewform",
-        "youtube": "https://youtu.be/ghCXhzyKre0?si=V4oDBtzeUI5hoCo8"
+        "youtube": "https://www.youtube.com/watch?v=v678dX_n-Pk&list=PLk4EHZC7JcYTKbGlp-S9CH11l0H1Ew_0R&index=10"
       }
     },
     {

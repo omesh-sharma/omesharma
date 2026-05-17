@@ -129,6 +129,96 @@
             image.alt = profile.identity.name;
         }
 
+        var galaxies = [
+            {
+                title: "AI / Agents",
+                priority: "high",
+                words: ["AI/ML", "MCP", "Agents", "RAG", "LLM", "Codex", "Cursor", "Cline", "OpenCode", "Prompting"]
+            },
+            {
+                title: "Distributed Systems",
+                priority: "high",
+                words: ["HA", "Messaging", "Queues", "Failover", "RCA", "Scalability", "Reliability", "Transactions", "Timeouts"]
+            },
+            {
+                title: "Backend",
+                priority: "high",
+                words: ["C/C++", "Python", "Java", "FastAPI", "Django", ".NET Core", "REST", "SOAP", "Oracle BRM", "APIs"]
+            },
+            {
+                title: "Cloud / DevOps",
+                priority: "medium",
+                words: ["Kubernetes", "Docker", "OCI", "Azure", "Jenkins", "CI/CD", "Helm", "Prometheus", "Grafana"]
+            },
+            {
+                title: "Document AI",
+                priority: "high",
+                words: ["OCR", "PDF", "Excel", "DFA", "Vision", "Extraction", "Searchable PDF", "Tesseract", "OpenCV"]
+            },
+            {
+                title: "Automation",
+                priority: "medium",
+                words: ["Web Scraping", "eCourts", "Audio", "Data Tools", "Power Query", "Pipelines", "Excel Automation"]
+            },
+            {
+                title: "Architecture",
+                priority: "medium",
+                words: ["System Design", "SOLID", "Patterns", "Microservices", "Security", "Protocols", "API-first"]
+            },
+            {
+                title: "Low-Level",
+                priority: "medium",
+                words: ["STL", "Pointers", "RAII", "Memory", "Threads", "GDB", "Valgrind", "Profiling"]
+            },
+            {
+                title: "Data / Storage",
+                priority: "medium",
+                words: ["Oracle DB", "MySQL", "Cassandra", "Elasticsearch", "Kafka", "Blob", "NAS", "JSON"]
+            },
+            {
+                title: "Security / Network",
+                priority: "medium",
+                words: ["SSL/TLS", "TLS 1.3", "FIPS", "TCP/IP", "SMTP", "DNS", "SPF/DKIM", "JWT", "IPv6"]
+            },
+            {
+                title: "Product Delivery",
+                priority: "low",
+                words: ["Agile", "Scrum", "SDLC", "Mentoring", "Docs", "Customer Support", "Go-live"]
+            },
+            {
+                title: "Quant / Research",
+                priority: "low",
+                words: ["Backtesting", "TA-Lib", "Binance", "Risk", "Genetic Algo", "Market Data"]
+            },
+            {
+                title: "Frontend / UI",
+                priority: "low",
+                words: ["JavaScript", "HTML", "CSS", "Angular", "Qt", "Streamlit", "Dashboards"]
+            },
+            {
+                title: "Business Tools",
+                priority: "low",
+                words: ["PO Templates", "Quotations", "Supply Chain", "PDF Merge", "Text to Excel"]
+            },
+            {
+                title: "Domain Expertise",
+                priority: "high",
+                words: ["Telecom", "OSS/BSS", "Legal-Tech", "Document Ops", "Supply Chain", "BFSI", "Freelancing", "Enterprise"]
+            }
+        ];
+        setHtml("[data-expertise-galaxies]", galaxies.map(function (galaxy, index) {
+            return [
+                '<div class="galaxy galaxy-' + (index + 1) + ' galaxy-' + escapeHtml(galaxy.priority) + '">',
+                '<strong>' + escapeHtml(galaxy.title) + "</strong>",
+                '<div>',
+                galaxy.words.slice(0, 9).map(function (word) {
+                    return '<span>' + escapeHtml(word) + "</span>";
+                }).join(""),
+                "</div>",
+                "</div>"
+            ].join("");
+        }).join(""));
+
         setHtml("[data-hero-actions]", [
             link(profile.landing.primaryCta || "Start a Conversation", profile.contact.whatsappUrl || "mailto:" + profile.contact.email, "button button-primary"),
             link(profile.landing.secondaryCta || "View Resume", profile.identity.resumeUrl, "button"),
@@ -321,6 +411,15 @@
                 ].join("");
             }).join("")) + "</div>",
             '<div class="mini-tags">' + tags(journey.themes || []) + "</div>",
+            '<div class="domain-served"><h4>Customer Domains Served</h4>' + ((journey.customerDomainsServed || []).map(function (domain) {
+                return [
+                    '<article>',
+                    '<strong>' + escapeHtml(domain.name) + "</strong>",
+                    domain.fullName ? '<span>' + escapeHtml(domain.fullName) + "</span>" : "",
+                    '<p>' + escapeHtml(domain.summary) + "</p>",
+                    "</article>"
+                ].join("");
+            }).join("")) + "</div>",
             "</div>"
         ].join(""));
 
