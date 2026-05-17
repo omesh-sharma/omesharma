@@ -641,6 +641,41 @@ p {
     font-size: 13px;
 }
 
+.journey-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.journey-metrics article {
+    padding: 12px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.journey-metrics strong {
+    display: block;
+    color: var(--text);
+    font-size: 26px;
+    line-height: 1;
+}
+
+.journey-metrics span {
+    display: block;
+    margin: 5px 0;
+    color: var(--green);
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.journey-metrics p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
 .experience-list {
     grid-template-columns: repeat(2, 1fr);
 }
@@ -711,7 +746,67 @@ p {
     gap: 12px;
 }
 
-.product-card:first-child {
+.product-group + .product-group {
+    margin-top: 28px;
+}
+
+.product-group-heading {
+    margin-bottom: 12px;
+    padding: 16px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.product-group-heading span {
+    display: block;
+    margin-bottom: 4px;
+    color: var(--green);
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.product-group-heading p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.ownership-badge {
+    display: inline-flex;
+    width: fit-content;
+    min-height: 30px;
+    align-items: center;
+    margin-bottom: 14px;
+    padding: 5px 9px;
+    border: 1px solid rgba(67, 217, 255, 0.28);
+    border-radius: 999px;
+    color: var(--cyan);
+    background: rgba(67, 217, 255, 0.07);
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.product-group:first-of-type .product-group-heading {
+    border-color: rgba(114, 240, 165, 0.24);
+    background: linear-gradient(135deg, rgba(114, 240, 165, 0.08), rgba(255, 255, 255, 0.035));
+}
+
+.product-group:first-of-type .product-group-heading span {
+    color: var(--green);
+}
+
+.product-group:last-of-type .product-group-heading {
+    border-color: rgba(67, 217, 255, 0.24);
+    background: linear-gradient(135deg, rgba(67, 217, 255, 0.08), rgba(255, 255, 255, 0.035));
+}
+
+.product-group:last-of-type .product-group-heading span {
+    color: var(--cyan);
+}
+
+.product-grid .product-card:first-child {
     grid-column: 1 / -1;
 }
 
@@ -1002,6 +1097,7 @@ p {
     .audience-grid,
     .service-grid,
     .cert-grid,
+    .journey-metrics,
     .content-grid,
     .proof-grid {
         grid-template-columns: repeat(2, 1fr);

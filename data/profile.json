@@ -65,7 +65,9 @@
       "Systems thinking",
       "End-to-end product ownership",
       "Learning in public",
-      "Practical automation"
+      "Practical automation",
+      "Customer problem solving",
+      "Manual-work elimination"
     ]
   },
   "landing": {
@@ -104,7 +106,9 @@
       "Enterprise modernization programs",
       "Production-ready MVPs",
       "High-availability systems",
-      "DevOps and release automation"
+      "DevOps and release automation",
+      "Customer-facing automation tools",
+      "Manual-work replacement pipelines"
     ],
     "freelanceProfiles": [
       {
@@ -122,6 +126,36 @@
         "url": "",
         "status": "Planned"
       }
+    ]
+  },
+  "entrepreneurialJourney": {
+    "headline": "Known in the freelancing domain for serving practical automation needs.",
+    "summary": "Built and delivered customer-facing automation tools and on-premise document products as part of an entrepreneurial journey focused on reducing manual work through deterministic tools, customization, and AI-enabled workflows.",
+    "metrics": [
+      {
+        "label": "Unique Clients Served",
+        "value": "25+",
+        "description": "Delivered services and custom automation solutions to clients with real manual workflow pain points."
+      },
+      {
+        "label": "Automation Tools Built",
+        "value": "30+",
+        "description": "Created tools and pipelines that replace repetitive manual tasks with deterministic automation."
+      },
+      {
+        "label": "On-Prem Products",
+        "value": "4",
+        "description": "Built on-premise product directions around document digitization, eCourts hearing intelligence, supply-chain validation, customization, and AI-enabled capability expansion."
+      }
+    ],
+    "themes": [
+      "Freelancing service delivery",
+      "Document digitization",
+      "Manual-work automation",
+      "Deterministic tools",
+      "On-premise products",
+      "Customer-specific customization",
+      "AI-enabled workflows"
     ]
   },
   "quickStats": [
@@ -737,8 +771,371 @@
   ],
   "products": [
     {
+      "id": "document-field-extractor-dfa",
+      "name": "Document Field Extractor (DFA)",
+      "ownership": "own-product",
+      "type": "Side Product / Document Intelligence Tool",
+      "status": "Built / Serving real manual-work automation needs",
+      "summary": "A flexible document processing tool that transforms unstructured documents into structured business data, helping firms reduce repetitive manual data-entry work with smarter OCR, AI, rule-based, and custom extraction workflows.",
+      "problem": "Many firms still process invoices, forms, certificates, bank statements, shipping documents, and business records manually, which creates delays, human errors, operational cost, and poor analytics readiness.",
+      "solution": "DFA processes scanned PDFs, searchable PDFs, and images, extracts fields using AI-based, regex-based, template-based, or custom plugin logic, and exports structured data into Excel, CSV, and JSON.",
+      "yourRole": "Designed and developed the tool as a practical side product to solve real document-processing pain points for firms with repetitive manual workflows.",
+      "features": [
+        "OCR for scanned PDFs, searchable PDFs, and images",
+        "AI-based dynamic field extraction",
+        "Regex and template-based offline extraction",
+        "Custom plugin support for client-specific logic",
+        "Excel, CSV, and JSON structured output",
+        "Batch and real-time folder watcher processing",
+        "Searchable PDF generation",
+        "Power Query integration for refreshable Excel workflows",
+        "Record and replay processing",
+        "API quota management and multi-credential load balancing"
+      ],
+      "techStack": [
+        "Python",
+        "OCR",
+        "AI/Vision APIs",
+        "Regex",
+        "Excel",
+        "CSV",
+        "JSON",
+        "Power Query",
+        "Batch Processing",
+        "Plugin Architecture"
+      ],
+      "impact": [
+        "Reduces manual data-entry workload for document-heavy firms",
+        "Converts unstructured documents into analytics-ready structured data",
+        "Supports online, offline, batch, and real-time processing models"
+      ],
+      "targetMarkets": [
+        "Accounting firms",
+        "SMEs",
+        "Banking and financial services",
+        "Healthcare",
+        "Enterprises",
+        "Education",
+        "Government",
+        "E-commerce and logistics"
+      ],
+      "businessModel": [
+        "On-premise deployment",
+        "Future SaaS expansion",
+        "License-based setup and maintenance",
+        "Subscription plans",
+        "Usage-based API consumption",
+        "Paid custom plugin and template development"
+      ],
+      "links": {
+        "demo": "",
+        "github": "",
+        "caseStudy": ""
+      },
+      "media": []
+    },
+    {
+      "id": "business-automation-toolkit",
+      "name": "Business Automation Toolkit",
+      "ownership": "own-product",
+      "type": "Entrepreneurial Tool Suite",
+      "status": "Built for customers / Solving real manual-work problems",
+      "summary": "A collection of practical automation tools and custom pipelines built during my entrepreneurial journey to help customers reduce repetitive manual work, convert unstructured files into usable data, and automate research/document workflows.",
+      "problem": "Small firms and operational teams often spend hours manually converting images, PDFs, scanned documents, court/public records, website data, and text files into structured Excel or searchable formats.",
+      "solution": "Built configurable tools and pipelines for image/PDF to Excel conversion, scanned file to searchable PDF transformation, web scraping to Excel, eCourt public hearing data extraction and summarization, PDF merging, text extraction, text-to-Excel conversion, and data manipulation.",
+      "yourRole": "Designed, developed, customized, and delivered these tools directly around customer pain points as part of a broader entrepreneurial/product-building journey.",
+      "features": [
+        "Any image and PDF file to Excel transformation with customization",
+        "Complete document extraction pipeline for customer-specific formats",
+        "Scanned file to searchable PDF conversion with OCR text layer",
+        "Translation pipeline to convert extracted text into different languages",
+        "PDF merging, assembly, and post-processing workflows",
+        "Target website scraping with Excel dump for marketing and research",
+        "Indian eCourts judicial hearing public data scraping and summarization",
+        "Audio-assisted hearing summarization workflows",
+        "Controlled interface for easier operation by non-technical users",
+        "Repeated utilities for image-to-PDF, PDF text extraction, text-to-Excel, and data manipulation"
+      ],
+      "techStack": [
+        "Python",
+        "OCR",
+        "PDF Processing",
+        "Excel Automation",
+        "Web Scraping",
+        "Data Extraction",
+        "Translation",
+        "Audio Summarization",
+        "Workflow Automation",
+        "Custom UI"
+      ],
+      "impact": [
+        "Helped customers reduce repetitive manual processing work",
+        "Converted messy files and public data into structured Excel/research outputs",
+        "Created reusable pipelines that can be customized for new firm-specific workflows"
+      ],
+      "targetMarkets": [
+        "Accounting firms",
+        "Legal research teams",
+        "Small businesses",
+        "Operations teams",
+        "Marketing research teams",
+        "Document-heavy firms"
+      ],
+      "links": {
+        "demo": "",
+        "github": "",
+        "caseStudy": ""
+      },
+      "media": []
+    },
+    {
+      "id": "image-pdf-to-excel-transformer",
+      "name": "Image/PDF to Excel Transformation Tool",
+      "ownership": "own-product",
+      "type": "Customer Automation Product",
+      "status": "Built / Customized for customer workflows",
+      "summary": "A configurable pipeline that transforms images and PDF files into structured Excel outputs for customers who need repeatable document-to-spreadsheet conversion.",
+      "problem": "Customers manually read image/PDF documents and re-enter values into Excel, causing delays, errors, and repeated operational effort.",
+      "solution": "Built an extraction and transformation pipeline that reads images/PDFs, applies OCR and parsing logic, maps fields into customer-specific Excel layouts, and supports customization for different document formats.",
+      "yourRole": "Designed and developed the complete pipeline, including extraction, mapping, customization logic, and structured Excel output.",
+      "features": [
+        "Image to Excel transformation",
+        "PDF to Excel transformation",
+        "Customer-specific field mapping",
+        "OCR-based extraction",
+        "Structured Excel generation",
+        "Format customization",
+        "Reusable pipeline design"
+      ],
+      "techStack": [
+        "Python",
+        "OCR",
+        "PDF Processing",
+        "Excel Automation",
+        "Data Mapping",
+        "Custom Rules"
+      ],
+      "impact": [
+        "Reduced manual document-to-Excel work",
+        "Improved repeatability for customer-specific formats",
+        "Created a reusable pipeline for similar conversion needs"
+      ],
+      "links": {},
+      "media": []
+    },
+    {
+      "id": "scanned-to-searchable-pdf-translation-pipeline",
+      "name": "Scanned File to Searchable PDF and Translation Pipeline",
+      "ownership": "own-product",
+      "type": "Document Automation Product",
+      "status": "Built / Customizable pipeline",
+      "summary": "A pipeline for converting scanned files into searchable PDFs by adding OCR text layers, with support for translation, PDF merging, assembling, and customized document post-processing.",
+      "problem": "Scanned documents are hard to search, reuse, translate, or assemble into structured digital records.",
+      "solution": "Built a pipeline that applies OCR text layers, generates searchable PDFs, supports translation into other languages, and handles merging, assembly, and document post-processing.",
+      "yourRole": "Designed and implemented the pipeline for scanned-file processing, OCR text layering, translation, and PDF assembly workflows.",
+      "features": [
+        "Scanned file to searchable PDF",
+        "OCR text layer generation",
+        "Translation to multiple languages",
+        "PDF merging",
+        "PDF assembly",
+        "Document post-processing",
+        "Customer-specific customization"
+      ],
+      "techStack": [
+        "Python",
+        "OCR",
+        "PDF Processing",
+        "Translation",
+        "Text Layering",
+        "Document Assembly"
+      ],
+      "impact": [
+        "Made scanned documents searchable and reusable",
+        "Reduced manual document preparation work",
+        "Enabled multilingual document workflows"
+      ],
+      "links": {},
+      "media": []
+    },
+    {
+      "id": "target-website-scraping-to-excel",
+      "name": "Target Website Scraping to Excel Tool",
+      "ownership": "own-product",
+      "type": "Research and Marketing Automation Product",
+      "status": "Built / Used for research and marketing workflows",
+      "summary": "A web scraping pipeline that extracts data from target websites and exports structured Excel datasets for marketing, research, and business analysis.",
+      "problem": "Marketing and research teams often manually collect public website data and convert it into spreadsheets.",
+      "solution": "Built configurable scraping workflows that extract target website data, clean it, and dump structured outputs into Excel for research and outreach use cases.",
+      "yourRole": "Developed the scraping, extraction, cleanup, and Excel export pipeline.",
+      "features": [
+        "Target website scraping",
+        "Structured Excel output",
+        "Marketing research data collection",
+        "Data cleanup",
+        "Repeatable extraction workflow",
+        "Customer-specific scraping logic"
+      ],
+      "techStack": [
+        "Python",
+        "Web Scraping",
+        "Excel Automation",
+        "Data Cleaning",
+        "Research Automation"
+      ],
+      "impact": [
+        "Reduced manual research collection effort",
+        "Created reusable Excel-ready datasets",
+        "Supported marketing and research workflows"
+      ],
+      "links": {},
+      "media": []
+    },
+    {
+      "id": "indian-ecourts-hearing-scraper-summarizer",
+      "name": "Indian eCourts Hearing Scraper and Audio Summarizer",
+      "ownership": "own-product",
+      "type": "Legal-Tech Automation Product",
+      "status": "Built / Controlled interface implemented",
+      "summary": "A legal-tech automation workflow that scrapes public Indian eCourts judicial hearing data, summarizes hearings, supports audio-assisted summaries, and provides an interface for controlled operation.",
+      "problem": "Legal/public hearing research can involve repetitive portal checks, manual extraction of public hearing data, and time-consuming review or summarization.",
+      "solution": "Built a controlled scraping and summarization workflow for Indian eCourts public data, including hearing data extraction, summarization, audio-assisted processing, and an easy-to-control interface.",
+      "yourRole": "Designed and implemented the scraper, summarization workflow, audio-assisted processing support, and user-controlled interface.",
+      "features": [
+        "Indian eCourts public data scraping",
+        "Judicial hearing data extraction",
+        "Hearing summarization",
+        "Audio-assisted summarization",
+        "Controlled user interface",
+        "Research workflow automation",
+        "Structured output generation"
+      ],
+      "techStack": [
+        "Python",
+        "Web Scraping",
+        "Summarization",
+        "Audio Processing",
+        "Public Data Extraction",
+        "Custom UI"
+      ],
+      "impact": [
+        "Reduced repetitive public hearing research effort",
+        "Converted hearing data into easier summaries",
+        "Provided a controlled interface for practical usage"
+      ],
+      "links": {},
+      "media": []
+    },
+    {
+      "id": "ecourts-ai-hearing-intelligence-platform",
+      "name": "eCourts AI Hearing Intelligence Platform",
+      "ownership": "own-product",
+      "type": "On-Prem Legal-Tech AI Product",
+      "status": "On-prem product direction / Built around legal hearing intelligence",
+      "summary": "An on-prem legal-tech AI platform direction for collecting public Indian eCourts hearing information, organizing all hearings, generating summaries, and supporting audio-based hearing intelligence workflows.",
+      "problem": "Legal teams and researchers need a controlled way to track, review, and summarize public hearing information without manually checking portals and processing hearing material repeatedly.",
+      "solution": "Built an AI-assisted platform direction that combines eCourts public data scraping, hearing organization, summarization, audio-assisted processing, and controlled review interfaces.",
+      "yourRole": "Designed and developed the scraping, hearing data workflow, summarization logic, audio-assisted processing direction, and controlled interface experience.",
+      "features": [
+        "Indian eCourts public hearing data collection",
+        "Hearing-wise organization",
+        "AI-assisted hearing summarization",
+        "Audio-assisted summary workflows",
+        "Controlled interface for review",
+        "On-premise deployment direction",
+        "Legal research workflow support"
+      ],
+      "techStack": [
+        "Python",
+        "Web Scraping",
+        "AI Summarization",
+        "Audio Processing",
+        "Legal-Tech",
+        "On-Prem Deployment",
+        "Custom UI"
+      ],
+      "impact": [
+        "Reduced repeated legal research effort",
+        "Made hearing information easier to review and summarize",
+        "Created a product direction for on-prem legal intelligence workflows"
+      ],
+      "links": {},
+      "media": []
+    },
+    {
+      "id": "supply-chain-validation-quotation-po-tool",
+      "name": "Supply Chain Validation, Quotation and PO Tool",
+      "ownership": "own-product",
+      "type": "On-Prem Supply Chain Automation Product",
+      "status": "Built / Customizable by use case",
+      "summary": "A customized supply-chain validation tool that validates inputs and generates quotation and purchase order templates based on specific customer use cases.",
+      "problem": "Supply-chain and procurement teams often validate requirements, prepare quotations, and generate purchase order templates manually, creating repetitive work and risk of format or business-rule mistakes.",
+      "solution": "Built a configurable validation and document-generation workflow that checks use-case-specific data and generates quotation and purchase order templates in required formats.",
+      "yourRole": "Designed and developed the validation logic, use-case customization flow, and quotation/purchase-order template generation pipeline.",
+      "features": [
+        "Supply-chain data validation",
+        "Use-case-specific business rules",
+        "Quotation template generation",
+        "Purchase order template generation",
+        "Customer-specific customization",
+        "Manual procurement workflow reduction",
+        "On-premise deployment direction"
+      ],
+      "techStack": [
+        "Python",
+        "Excel Automation",
+        "Template Generation",
+        "Business Rule Engine",
+        "Data Validation",
+        "Document Automation",
+        "On-Prem Deployment"
+      ],
+      "impact": [
+        "Reduced manual quotation and PO preparation effort",
+        "Improved consistency in supply-chain documentation",
+        "Created a reusable foundation for procurement workflow automation"
+      ],
+      "links": {},
+      "media": []
+    },
+    {
+      "id": "document-utility-tools",
+      "name": "Document Utility Automation Tools",
+      "ownership": "own-product",
+      "type": "Office Workflow Automation Utilities",
+      "status": "Built repeatedly for manual-work reduction",
+      "summary": "A set of small but practical utilities for recurring office/document tasks such as image-to-PDF, PDF text extraction, text-file-to-Excel conversion, merging, cleanup, and data manipulation.",
+      "problem": "Teams frequently spend time on small repetitive file conversion and cleanup tasks that do not justify large products but still waste operational hours.",
+      "solution": "Built reusable utilities and scripts to automate common document and data manipulation tasks.",
+      "yourRole": "Developed repeated custom utilities based on customer/manual workflow needs.",
+      "features": [
+        "Image to PDF conversion",
+        "PDF merging",
+        "PDF text extraction to files",
+        "Text files to Excel transformation",
+        "Data cleanup",
+        "Data manipulation",
+        "Small custom workflow automations"
+      ],
+      "techStack": [
+        "Python",
+        "PDF Processing",
+        "Excel Automation",
+        "File Processing",
+        "Data Manipulation"
+      ],
+      "impact": [
+        "Saved time on repetitive office tasks",
+        "Created reusable utilities for recurring manual workflows",
+        "Helped customers solve small but frequent operational problems"
+      ],
+      "links": {},
+      "media": []
+    },
+    {
       "id": "oracle-brm-messaging-platforms",
       "name": "Oracle BRM and Messaging Server Platforms",
+      "ownership": "company-work",
       "type": "Enterprise Distributed Systems",
       "status": "Production / Enterprise",
       "summary": "Enterprise-scale billing, revenue management, and messaging infrastructure focused on secure communication, high availability, routing, delivery, distributed transaction processing, and platform modernization.",
@@ -790,6 +1187,7 @@
     {
       "id": "document-intelligence-platform",
       "name": "Intelligent Document Management / OCR Platform",
+      "ownership": "company-work",
       "type": "Enterprise Product",
       "status": "Delivered / Contributed",
       "summary": "A cloud-based Document AI and OCR platform for extracting, preprocessing, classifying, processing, indexing, and searching scanned documents, PDFs, invoices, and searchable document content.",
@@ -839,6 +1237,7 @@
     {
       "id": "quant-backtesting-engine",
       "name": "Quant Trading Backtesting Engine",
+      "ownership": "company-work",
       "type": "Research / Product Prototype",
       "status": "Prototype / Built",
       "summary": "A desktop backtesting system for strategy generation, market analysis, and automated buy/sell testing.",
@@ -875,6 +1274,7 @@
     {
       "id": "graphics-save-load-framework",
       "name": "Graphics Save/Load and Replay Framework",
+      "ownership": "company-work",
       "type": "Engineering System",
       "status": "Delivered",
       "summary": "A C++ framework for storing and replaying CAD/graphics application state using transforms, matrices, and JSON.",
@@ -1114,6 +1514,244 @@
   ],
   "sideHustles": [
     {
+      "id": "dfa-document-field-extractor",
+      "name": "Document Field Extractor (DFA)",
+      "category": "Side Product / Document Automation",
+      "status": "Built and actively solving manual-work pain points",
+      "summary": "A document intelligence tool built to help firms automate repetitive manual document processing by converting PDFs and images into structured Excel, CSV, and JSON output.",
+      "whyIBuiltIt": "To solve the real operational pain of manual data entry, document extraction, invoice processing, form digitization, and folder-wise reporting for firms that deal with repetitive document-heavy workflows.",
+      "whatILearned": [
+        "How to package OCR, AI extraction, regex, templates, and plugins into a usable business tool",
+        "How to design config-driven extraction so non-developers can handle common document workflows",
+        "How to support online and offline processing for cost control, privacy, and vendor independence",
+        "How to position a technical automation tool as a business solution with on-premise, subscription, and customization models"
+      ],
+      "features": [
+        "OCR and searchable PDF generation",
+        "AI, regex, template, and plugin-based extraction",
+        "Folder watcher for real-time automation",
+        "Batch processing for cost-efficient workloads",
+        "Excel, CSV, JSON, master Excel, and folder-wise outputs",
+        "Power Query integration",
+        "Record and replay processing",
+        "API quota management and load balancing"
+      ],
+      "useCases": [
+        "Invoice automation",
+        "Bank statement parsing",
+        "Form digitization",
+        "Certificate processing",
+        "Bulk document migration",
+        "KYC and business record extraction"
+      ],
+      "techStack": [
+        "Python",
+        "OCR",
+        "AI/Vision APIs",
+        "Regex",
+        "Excel",
+        "Power Query",
+        "CSV",
+        "JSON",
+        "Plugin Architecture"
+      ],
+      "links": {}
+    },
+    {
+      "id": "customer-automation-pipelines",
+      "name": "Customer Automation Pipelines",
+      "category": "Entrepreneurial Tools / Customer Delivery",
+      "status": "Built, customized, and delivered",
+      "summary": "A set of automation pipelines developed to solve real customer problems around document conversion, data extraction, scraping, summarization, and repetitive office workflows.",
+      "whyIBuiltIt": "Customers were losing time on repetitive manual work such as converting PDFs/images to Excel, extracting text, assembling PDFs, scraping public or target websites, and preparing structured research/marketing data.",
+      "whatILearned": [
+        "How to understand a firm's manual workflow and convert it into a repeatable software pipeline",
+        "How to build configurable tools where the same core engine can be customized for different customers",
+        "How to combine OCR, scraping, Excel automation, translation, and summarization into practical business workflows",
+        "How to ship controlled interfaces for non-technical users"
+      ],
+      "features": [
+        "Image/PDF to Excel transformation tools",
+        "Scanned PDF to searchable PDF pipelines with OCR text layer",
+        "Translation and multilingual output workflows",
+        "PDF merging, assembling, and document post-processing",
+        "Target website scraping for marketing and research datasets",
+        "Indian eCourts public hearing data scraping and summarization",
+        "Audio-based hearing summarization support",
+        "PDF text extraction to files",
+        "Text files to Excel conversion",
+        "Data cleanup and manipulation utilities"
+      ],
+      "useCases": [
+        "Manual office workflow automation",
+        "Legal and judicial research support",
+        "Marketing research data collection",
+        "Document digitization",
+        "Bulk file conversion",
+        "Excel/report generation"
+      ],
+      "techStack": [
+        "Python",
+        "OCR",
+        "PDF Processing",
+        "Excel Automation",
+        "Web Scraping",
+        "Audio Summarization",
+        "Translation",
+        "Data Manipulation",
+        "Custom UI"
+      ],
+      "links": {}
+    },
+    {
+      "id": "image-pdf-excel-side-product",
+      "name": "Image/PDF to Excel Tool",
+      "category": "Customer Automation / Document Conversion",
+      "status": "Delivered as a customizable tool",
+      "summary": "A tool for converting images and PDFs into structured Excel outputs with customer-specific field mapping and formatting.",
+      "whyIBuiltIt": "Customers needed to stop manually reading image/PDF files and entering values into spreadsheets.",
+      "whatILearned": [
+        "How to map messy document formats into structured Excel output",
+        "How to customize extraction pipelines per customer format",
+        "How to turn a repeated manual task into a reusable automation tool"
+      ],
+      "techStack": [
+        "Python",
+        "OCR",
+        "PDF Processing",
+        "Excel Automation",
+        "Data Mapping"
+      ],
+      "links": {}
+    },
+    {
+      "id": "searchable-pdf-translation-side-product",
+      "name": "Searchable PDF and Translation Pipeline",
+      "category": "Document Intelligence / PDF Automation",
+      "status": "Built as a complete customizable pipeline",
+      "summary": "A pipeline that converts scanned files into searchable PDFs with OCR text layers, translation support, PDF merging, and assembly workflows.",
+      "whyIBuiltIt": "Scanned files are hard to search, translate, merge, and reuse without a proper OCR and document assembly pipeline.",
+      "whatILearned": [
+        "How to add OCR text layers to scanned documents",
+        "How to combine OCR, translation, merging, and assembly into one flow",
+        "How to customize document pipelines for different customer needs"
+      ],
+      "techStack": [
+        "Python",
+        "OCR",
+        "PDF Processing",
+        "Translation",
+        "Document Assembly"
+      ],
+      "links": {}
+    },
+    {
+      "id": "website-scraping-excel-side-product",
+      "name": "Target Website Scraping to Excel",
+      "category": "Marketing / Research Automation",
+      "status": "Built for research and marketing workflows",
+      "summary": "A scraping workflow that extracts data from target websites and dumps clean, structured outputs into Excel for research and marketing use cases.",
+      "whyIBuiltIt": "Manual website data collection is repetitive and slow for marketing, outreach, and research teams.",
+      "whatILearned": [
+        "How to build repeatable scraping workflows",
+        "How to structure web data into Excel-ready datasets",
+        "How to adapt scraping logic for different target websites"
+      ],
+      "techStack": [
+        "Python",
+        "Web Scraping",
+        "Excel Automation",
+        "Data Cleaning"
+      ],
+      "links": {}
+    },
+    {
+      "id": "ecourts-hearing-summarizer-side-product",
+      "name": "Indian eCourts Hearing Scraper and Summarizer",
+      "category": "Legal-Tech / Public Data Automation",
+      "status": "Built with controlled interface",
+      "summary": "A legal-tech workflow for scraping Indian eCourts public judicial hearing data, summarizing hearings, and supporting audio-assisted summaries through a controlled interface.",
+      "whyIBuiltIt": "Judicial/public hearing research involves repeated portal checks, manual extraction, and time-consuming summarization.",
+      "whatILearned": [
+        "How to automate public portal research workflows",
+        "How to summarize hearing information into usable outputs",
+        "How to build controlled interfaces for complex automation tools"
+      ],
+      "techStack": [
+        "Python",
+        "Web Scraping",
+        "Summarization",
+        "Audio Processing",
+        "Custom UI"
+      ],
+      "links": {}
+    },
+    {
+      "id": "ecourts-ai-platform-side-product",
+      "name": "eCourts AI Hearing Intelligence Platform",
+      "category": "On-Prem Legal-Tech AI Product",
+      "status": "Built as an on-prem product direction",
+      "summary": "An on-prem AI platform direction for organizing Indian eCourts public hearing data, summarizing all hearings, and supporting audio-assisted hearing intelligence workflows.",
+      "whyIBuiltIt": "Legal/public research teams need a way to reduce repeated portal checks, hearing review effort, and manual summarization work.",
+      "whatILearned": [
+        "How to convert public legal data collection into a product workflow",
+        "How to combine scraping, summarization, audio processing, and controlled interfaces",
+        "How to shape legal-tech automation into an on-prem product direction"
+      ],
+      "techStack": [
+        "Python",
+        "Web Scraping",
+        "AI Summarization",
+        "Audio Processing",
+        "Custom UI",
+        "On-Prem"
+      ],
+      "links": {}
+    },
+    {
+      "id": "supply-chain-validation-side-product",
+      "name": "Supply Chain Validation, Quotation and PO Tool",
+      "category": "On-Prem Supply Chain Automation",
+      "status": "Built and customizable",
+      "summary": "A supply-chain automation tool that validates use-case-specific data and generates quotation and purchase order templates.",
+      "whyIBuiltIt": "Procurement and supply-chain workflows often involve repeated validation, quotation preparation, and PO document generation.",
+      "whatILearned": [
+        "How to model procurement rules into deterministic validation flows",
+        "How to generate customer-specific quotation and PO templates",
+        "How to build reusable business-rule automation for supply-chain workflows"
+      ],
+      "techStack": [
+        "Python",
+        "Excel Automation",
+        "Template Generation",
+        "Business Rules",
+        "Data Validation",
+        "On-Prem"
+      ],
+      "links": {}
+    },
+    {
+      "id": "document-utilities-side-product",
+      "name": "Repeated Document Utility Tools",
+      "category": "Office Automation / File Utilities",
+      "status": "Built repeatedly for customer/manual workflows",
+      "summary": "Small practical tools for image-to-PDF, PDF text extraction, text-file-to-Excel transformation, PDF merging, cleanup, and data manipulation.",
+      "whyIBuiltIt": "Many manual workflows are small but repeated daily, so lightweight utilities can save real operational time.",
+      "whatILearned": [
+        "How to quickly convert repeated manual tasks into utilities",
+        "How to design small tools around real user friction",
+        "How to reuse file-processing patterns across customers"
+      ],
+      "techStack": [
+        "Python",
+        "PDF Processing",
+        "Excel Automation",
+        "File Processing",
+        "Data Manipulation"
+      ],
+      "links": {}
+    },
+    {
       "id": "trading-research",
       "name": "Trading Strategy Research",
       "category": "Quant / Automation",
@@ -1160,6 +1798,51 @@
     }
   ],
   "aiLab": [
+    {
+      "id": "ai-assisted-sdlc-workflows",
+      "name": "AI-Assisted SDLC and Engineering Workflows",
+      "status": "Active Practice",
+      "summary": "Developed and applied AI-assisted workflows using tools such as Codex, Cline, OpenCode, and Cursor to accelerate repeated development, SDLC activities, security review support, porting, upgrades, debugging, and implementation planning.",
+      "topics": [
+        "Codex",
+        "Cline",
+        "OpenCode",
+        "Cursor",
+        "AI-assisted development",
+        "SDLC automation",
+        "Security review support",
+        "Porting",
+        "Upgrades",
+        "Repeated development workflows"
+      ],
+      "outcomes": [
+        "Improved speed for repeated engineering tasks",
+        "Created practical AI workflows for development, review, migration, and troubleshooting",
+        "Used AI as an engineering assistant while keeping architecture and production judgment human-led"
+      ],
+      "links": {}
+    },
+    {
+      "id": "personal-notes-rag-assistant",
+      "name": "Personal Notes RAG and Vector DB Assistant",
+      "status": "Built / Experimented",
+      "summary": "Built a RAG-based personal knowledge workflow using notes and vector database search to assist with finding solutions from specific personal or technical notes.",
+      "topics": [
+        "RAG",
+        "Vector database",
+        "Personal knowledge base",
+        "Semantic search",
+        "Notes assistant",
+        "LLM workflow",
+        "Knowledge retrieval"
+      ],
+      "outcomes": [
+        "Made personal notes searchable by meaning instead of only filenames or keywords",
+        "Improved solution discovery from accumulated technical notes",
+        "Created a foundation for reusable personal engineering knowledge workflows"
+      ],
+      "links": {}
+    },
     {
       "id": "document-ai",
       "name": "Document AI and OCR Workflows",
@@ -1858,7 +2541,7 @@
         "target": "certifications"
       },
       {
-        "label": "Lab",
+        "label": "Builder Studio",
         "target": "lab"
       },
       {

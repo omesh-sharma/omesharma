@@ -216,13 +216,25 @@
     }
 
     function renderProducts(profile) {
-        setHtml("[data-products]", (profile.products || []).map(function (item) {
+        var ownProducts = (profile.products || []).filter(function (item) {
+            return item.ownership === "own-product";
+        });
+        var companyProducts = (profile.products || []).filter(function (item) {
+            return item.ownership !== "own-product";
+        });
+        setHtml("[data-own-products]", ownProducts.map(renderProductCard).join(""));
+        setHtml("[data-company-products]", companyProducts.map(renderProductCard).join(""));
+    }
+
+    function renderProductCard(item) {
+        var ownershipLabel = item.ownership === "own-product" ? "Independent Build" : "Organization Work";
             return [
                 '<article class="product-card">',
                 '<div class="product-topline">',
                 '<span>' + escapeHtml(item.type) + "</span>",
                 '<span>' + escapeHtml(item.status) + "</span>",
                 "</div>",
+                '<div class="ownership-badge">' + escapeHtml(ownershipLabel) + "</div>",
                 '<h3>' + escapeHtml(item.name) + "</h3>",
                 '<p>' + escapeHtml(item.summary) + "</p>",
                 '<div class="product-meta-grid">',
@@ -235,7 +247,6 @@
                 '<div class="mini-tags">' + tags((item.techStack || []).slice(0, 10)) + "</div>",
                 "</article>"
             ].join("");
-        }).join(""));
     }
 
     function renderServices(profile) {
@@ -252,6 +263,25 @@
     }
 
     function renderLab(profile) {
+        var journey = profile.entrepreneurialJourney || {};
+        setText("[data-entrepreneurial-summary]", journey.summary || "");
+        setHtml("[data-entrepreneurial-journey]", [
+            '<div class="panel">',
+            "<h3>Freelancing and Entrepreneurial Journey</h3>",
+            '<p class="panel-note">' + escapeHtml(journey.headline || "") + "</p>",
+            '<div class="journey-metrics">' + ((journey.metrics || []).map(function (item) {
+                return [
+                    '<article>',
+                    '<strong>' + escapeHtml(item.value) + "</strong>",
+                    '<span>' + escapeHtml(item.label) + "</span>",
+                    '<p>' + escapeHtml(item.description) + "</p>",
+                    "</article>"
+                ].join("");
+            }).join("")) + "</div>",
+            '<div class="mini-tags">' + tags(journey.themes || []) + "</div>",
+            "</div>"
+        ].join(""));
+
         setHtml("[data-ai-lab]", [
             '<div class="panel">',
             "<h3>AI Lab</h3>",
@@ -261,7 +291,7 @@
 
         setHtml("[data-side-hustles]", [
             '<div class="panel">',
-            "<h3>Side Hustles</h3>",
+            "<h3>Owned Products and Service Tools</h3>",
             (profile.sideHustles || []).map(simplePanelItem).join(""),
             "</div>"
         ].join(""));
