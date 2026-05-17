@@ -62,6 +62,46 @@
         return '<a class="' + className + '" href="' + escapeHtml(href) + '" target="_blank" rel="noopener">' + escapeHtml(label) + "</a>";
     }
 
+    function actionLinks(links) {
+        if (!links) {
+            return "";
+        }
+        var actions = [
+            link("Request Trial", links.trial, "button button-primary"),
+            link("Watch Demo", links.youtube, "button"),
+            link("Demo", links.demo, "button"),
+            link("GitHub", links.github, "button"),
+            link("Case Study", links.caseStudy, "button")
+        ].filter(Boolean);
+        return actions.length ? '<div class="card-actions">' + actions.join("") + "</div>" : "";
+    }
+
+    function youtubeId(url) {
+        if (!url) {
+            return "";
+        }
+        var match = String(url).match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([^?&/]+)/);
+        return match ? match[1] : "";
+    }
+
+    function mediaEmbeds(media) {
+        var embeds = (media || []).map(function (item) {
+            if (item.type !== "youtube") {
+                return "";
+            }
+            var id = youtubeId(item.url);
+            if (!id) {
+                return "";
+            }
+            return [
+                '<div class="video-embed">',
+                '<iframe src="https://www.youtube.com/embed/' + escapeHtml(id) + '" title="' + escapeHtml(item.title || "Product demo") + '" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+                "</div>"
+            ].join("");
+        }).filter(Boolean);
+        return embeds.length ? '<div class="media-stack">' + embeds.join("") + "</div>" : "";
+    }
+
     function renderNavigation(profile) {
         var nav = $("[data-nav]");
         if (!nav) {
@@ -244,7 +284,9 @@
                 '<div class="impact-row">' + (item.impact || item.features || []).slice(0, 3).map(function (impact) {
                     return '<span>' + escapeHtml(impact) + "</span>";
                 }).join("") + "</div>",
+                mediaEmbeds(item.media),
                 '<div class="mini-tags">' + tags((item.techStack || []).slice(0, 10)) + "</div>",
+                actionLinks(item.links),
                 "</article>"
             ].join("");
     }
@@ -304,6 +346,7 @@
             '<h4>' + escapeHtml(item.name) + "</h4>",
             '<p>' + escapeHtml(item.summary) + "</p>",
             '<div class="mini-tags">' + tags((item.topics || item.techStack || []).slice(0, 6)) + "</div>",
+            actionLinks(item.links),
             "</article>"
         ].join("");
     }

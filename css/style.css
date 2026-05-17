@@ -284,10 +284,21 @@ p {
 }
 
 .hero-actions,
-.contact-actions {
+.contact-actions,
+.card-actions {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+.card-actions {
+    margin-top: 16px;
+}
+
+.card-actions .button {
+    min-height: 38px;
+    padding: 8px 12px;
+    font-size: 12px;
 }
 
 .button {
@@ -860,6 +871,30 @@ p {
     background: rgba(67, 217, 255, 0.055);
     font-size: 13px;
     font-weight: 700;
+}
+
+.media-stack {
+    display: grid;
+    gap: 12px;
+    margin-top: 14px;
+}
+
+.video-embed {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: #05070a;
+}
+
+.video-embed iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 .service-grid {

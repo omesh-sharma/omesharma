@@ -828,11 +828,19 @@
         "Paid custom plugin and template development"
       ],
       "links": {
+        "trial": "https://docs.google.com/forms/d/e/1FAIpQLScNSearqey-STHcb9eZxYl1oiXtNxoEcAvpLqPU8EPafxJpkQ/viewform",
+        "youtube": "https://youtu.be/ghCXhzyKre0?si=V4oDBtzeUI5hoCo8",
         "demo": "",
         "github": "",
         "caseStudy": ""
       },
-      "media": []
+      "media": [
+        {
+          "type": "youtube",
+          "title": "Smart Data Extraction to Excel Demo",
+          "url": "https://youtu.be/ghCXhzyKre0?si=V4oDBtzeUI5hoCo8"
+        }
+      ]
     },
     {
       "id": "business-automation-toolkit",
@@ -1555,7 +1563,10 @@
         "JSON",
         "Plugin Architecture"
       ],
-      "links": {}
+      "links": {
+        "trial": "https://docs.google.com/forms/d/e/1FAIpQLScNSearqey-STHcb9eZxYl1oiXtNxoEcAvpLqPU8EPafxJpkQ/viewform",
+        "youtube": "https://youtu.be/ghCXhzyKre0?si=V4oDBtzeUI5hoCo8"
+      }
     },
     {
       "id": "customer-automation-pipelines",
