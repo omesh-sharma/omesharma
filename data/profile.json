@@ -71,6 +71,12 @@
     ]
   },
   "landing": {
+    "heroVisual": {
+      "mode": "image",
+      "image": "img/omesh-tech-stack-hero-face-match-draft.png",
+      "alt": "Omesh Sharma with classified technology stack panels",
+      "fallbackMode": "galaxy"
+    },
     "availability": "Software Engineer III, Software Engineer 3, Senior Software Engineer, Senior Software Application Engineer, Staff Software Engineer, Senior Staff Engineer, Principal Engineer, Senior Member of Technical Staff (SMTS), Principal Member of Technical Staff (PMTS), Technical Lead, Engineering Lead, Lead Architect, System Architect, Solutions Architect, Enterprise Architect, Technical Architect, Principal Consultant, Senior Consultant, Technical Consultant, AI Engineer, Generative AI Engineer, LLM Engineer, Applied AI Engineer, AI Solutions Architect, Platform Engineer, Infrastructure Engineer, Cloud Architect, Automation Engineer, Product Engineer, DevOps Engineer, MLOps Engineer, Backend Engineer, Full Stack Engineer.",
     "primaryCta": "Start a Conversation",
     "secondaryCta": "View Resume",

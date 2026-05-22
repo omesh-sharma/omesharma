@@ -129,6 +129,19 @@
             image.alt = profile.identity.name;
         }
 
+        var heroVisual = profile.landing.heroVisual || {};
+        var heroMode = heroVisual.mode === "image" ? "image" : "galaxy";
+        var heroTopVisual = $(".hero-top-visual");
+        var techImage = $("[data-hero-tech-image]");
+        if (heroTopVisual) {
+            heroTopVisual.classList.toggle("is-image-mode", heroMode === "image");
+            heroTopVisual.classList.toggle("is-galaxy-mode", heroMode !== "image");
+        }
+        if (techImage) {
+            techImage.src = heroVisual.image || profile.identity.heroImage || profile.identity.avatar;
+            techImage.alt = heroVisual.alt || profile.identity.name + " technology stack hero";
+        }
+
         var galaxies = [
             {
                 title: "AI / Agents",

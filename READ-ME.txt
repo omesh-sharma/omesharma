@@ -1,3 +1,73 @@
+Omesh Sharma Portfolio
+======================
+
+This is a static, JSON-driven developer portfolio. The main page is `index.html`,
+and portfolio content is loaded from `data/profile.json`.
+
+Run Locally
+-----------
+
+Prerequisite:
+- Install Node.js if it is not already installed.
+
+From the project root, run:
+
+    node tools/static-server.js
+
+Then open this URL in your browser:
+
+    http://127.0.0.1:5173/
+
+Why use this command:
+- The site loads JSON from `data/profile.json`.
+- Opening `index.html` directly with `file://` can block JSON loading in some browsers.
+- The Node command starts a small local static server so the site behaves like it will after deployment.
+
+Useful Files
+------------
+
+- `index.html`: Main portfolio page.
+- `css/style.css`: Visual styling and responsive layout.
+- `js/main.js`: JSON loading and UI rendering logic.
+- `data/profile.json`: Main content source for profile, services, products, certifications, and links.
+- `tools/static-server.js`: Local static server used for development/testing.
+
+Hero Visual Switch
+------------------
+
+The top hero visual is controlled from `data/profile.json` under:
+
+    landing.heroVisual
+
+Current setting:
+
+    "heroVisual": {
+      "mode": "image",
+      "image": "img/omesh-tech-stack-hero-face-match-draft.png",
+      "alt": "Omesh Sharma with classified technology stack panels",
+      "fallbackMode": "galaxy"
+    }
+
+Available modes:
+
+- `"mode": "image"` shows the generated realistic technology-stack hero image.
+- `"mode": "galaxy"` shows the existing interactive-style galaxy layout with the separate profile image, badges, and keyword clusters.
+
+To switch back to the previous galaxy UI, change:
+
+    "mode": "image"
+
+to:
+
+    "mode": "galaxy"
+
+To use a different generated hero image, keep `"mode": "image"` and update the `image` path. Example:
+
+    "image": "img/my-new-hero-image.png"
+
+Original Template Credit
+------------------------
+
   =>  Template Name    : DevFolio - Developer Portfolio Template
 
   =>  Template Link    : https://htmlcodex.com/developer-portfolio-template

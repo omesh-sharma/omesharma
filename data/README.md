@@ -29,6 +29,15 @@ This folder is the single source of truth for the next version of the portfolio.
 
 Future content updates should happen here first. UI files should only decide how to display this data.
 
+## Hero Visual Mode
+
+The top hero visual is controlled by `landing.heroVisual.mode` in `profile.json`.
+
+- `image`: Uses `landing.heroVisual.image`, currently `img/omesh-tech-stack-hero-face-match-draft.png`.
+- `galaxy`: Uses the existing profile image, badges, and technology galaxy keyword layout.
+
+This lets the site switch between the generated realistic hero image and the original structured UI without replacing either asset.
+
 ## Suggested UI Mapping
 
 - Hero: `identity`, `positioning`, `quickStats`, `socials`
